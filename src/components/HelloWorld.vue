@@ -37,8 +37,6 @@
 
 <script>
 // import sentateInfo from '../assets/senateDistricts.json'
-import senators from '../assets/senators.json'
-import partyInfo from '../assets/partyInformation.json'
 import { gmapApi } from 'vue2-google-maps'
 
 export default {
@@ -52,7 +50,8 @@ export default {
       place: null,
       senateDistricts: [],
       selectedDistrict: null,
-      partyInfo: partyInfo
+      senators: {},
+      partyInfo: {}
     }
 
   },
@@ -106,7 +105,7 @@ export default {
     loadSenateDistricts (data) {
       data.districts.forEach(d => {
 
-        var senator = senators.senators.find(s => {
+        var senator = this.senators.senators.find(s => {
           return s.district === d.number
         })
 
@@ -123,8 +122,11 @@ export default {
 
   },
   created () {
-    const url = '/senateDistricts.json'
-    fetch(url).then(response => response.json()).then(data => this.loadSenateDistricts(data))
+    import('../assets/partyInformation.json').then(data => this.partyInfo = data)
+    import('../assets/senators.json').then(data => this.senators = data)
+    import('../assets/senateDistricts.json').then(data => this.loadSenateDistricts(data))
+    // const url = '/senateDistricts.json'
+    // fetch(url).then(response => response.json()).then(data => this.loadSenateDistricts(data))
   },
   // mounted () {
   //   this.$refs.mapRef.$mapPromise.then((map) => {
