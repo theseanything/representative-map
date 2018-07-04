@@ -11,13 +11,9 @@ Vue.use(Main)
 
 Vue.config.productionTip = false
 
-// Vue.use(MdOption)
-// Vue.use(MdSelect)
-console.log(process.env.VUE_APP_GMAP_KEY)
 Vue.use(VueGoogleMaps, {
   load: {
     key: process.env.VUE_APP_GMAP_KEY,
-    // key: 'AIzaSyANsnW141BsRr4JFQ5EACU5PR3GNxGGqps',
     libraries: 'places,geometry',
     v: '3.32' // necessary for places input
   }
