@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import sentateInfo from '../assets/senateDistricts.json'
+// import sentateInfo from '../assets/senateDistricts.json'
 import senators from '../assets/senators.json'
 import partyInfo from '../assets/partyInformation.json'
 import { gmapApi } from 'vue2-google-maps'
@@ -102,25 +102,29 @@ export default {
         return this.partyInfo['R'].color
       }
       return '#000000'
+    },
+    loadSenateDistricts (data) {
+      data.districts.forEach(d => {
+
+        var senator = senators.senators.find(s => {
+          return s.district === d.number
+        })
+
+        var color = this.getBoundaryColor(senator.parties)
+
+        this.senateDistricts.push({
+          number: d.number,
+          coordinates: d.coordinates,
+          options: { geodesic: true, strokeColor: color, fillColor: color, strokeWeight: 1, fillOpacity: 0.1, strokeOpacity: 0.2 },
+          senator: senator
+        })
+      })
     }
 
   },
   created () {
-    sentateInfo.districts.forEach(d => {
-
-      var senator = senators.senators.find(s => {
-        return s.district === d.number
-      })
-
-      var color = this.getBoundaryColor(senator.parties)
-
-      this.senateDistricts.push({
-        number: d.number,
-        coordinates: d.coordinates,
-        options: { geodesic: true, strokeColor: color, fillColor: color, strokeWeight: 1, fillOpacity: 0.1, strokeOpacity: 0.2 },
-        senator: senator
-      })
-    })
+    const url = '/senateDistricts.json'
+    fetch(url).then(response => response.json()).then(data => this.loadSenateDistricts(data))
   },
   // mounted () {
   //   this.$refs.mapRef.$mapPromise.then((map) => {
