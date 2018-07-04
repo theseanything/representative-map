@@ -1,0 +1,71 @@
+{
+  "D": {
+    "name": "Democrat",
+    "color": "#1b5187"
+  },
+  "R": {
+    "name": "Republican",
+    "color": "#87002f"
+  },
+  "C": {
+    "name": "Conservative",
+    "color": ""
+  },
+  "CNST": {
+    "name": "Constitution",
+    "color": ""
+  },
+  "G": {
+    "name": "Green",
+    "color": ""
+  },
+  "IP": {
+    "name": "Independence Party",
+    "color": ""
+  },
+  "I": {
+    "name": "Independent / No Party",
+    "color": ""
+  },
+  "Ind": {
+    "name": "Independent Party",
+    "color": ""
+  },
+  "L": {
+    "name": "Liberal",
+    "color": ""
+  },
+  "LIBT": {
+    "name": "Libertarian",
+    "color": ""
+  },
+  "NL": {
+    "name": "Natural Law",
+    "color": ""
+  },
+  "RTL": {
+    "name": "Right to Life",
+    "color": ""
+  },
+
+  "SJ": {
+    "name": "Save Jobs",
+    "color": ""
+  },
+  "SC": {
+    "name": "School Choice",
+    "color": ""
+  },
+  "RFM": {
+    "name": "Reform Party",
+    "color": ""
+  },
+  "SWP": {
+    "name": "Socialist Workers",
+    "color": ""
+  },
+  "WF": {
+    "name": "Working Families",
+    "color": ""
+  }
+}
