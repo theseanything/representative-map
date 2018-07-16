@@ -2,9 +2,9 @@
   <div class="sidebar">
         <h2>New York Representatives</h2>
 
-        <el-menu class="map-menu" :default-active="activeIndex" mode="horizontal">
-          <el-menu-item class="map-menu-item" index="1">State Senate</el-menu-item>
-        </el-menu>
+        <ul>
+          <li class="map-menu-item" >State Senate</li>
+        </ul>
 
           <!-- <el-button icon="el-icon-search" circle></el-button> -->
         <div class="district-info" v-if="selectedDistrict">
@@ -13,9 +13,9 @@
             <div class="partition"></div>
             <img :src="'/headshots/cropped/'  + selectedDistrict.senator.district + '.jpg'" alt="" width="160" height="160">
             <h3>{{ selectedDistrict.senator.name }}</h3>
-            <div id="parties">
-              <el-tag type="info" size="small" v-for="p in selectedDistrict.senator.parties" :key="p">{{ $store.getters.getPartyFullname(p) }}</el-tag>
-            </div>
+            <ul id="parties">
+              <li v-for="p in selectedDistrict.senator.parties" :key="p">{{ $store.getters.getPartyFullname(p) }}</li>
+            </ul>
           </div>
         </div>
 

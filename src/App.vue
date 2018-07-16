@@ -1,13 +1,11 @@
 <template>
   <div id="app">
-    <el-container>
-      <el-aside>
+      <div id="aside">
         <sidebar></sidebar>
-      </el-aside>
-      <el-main id="main">
+      </div>
+      <div id="main">
         <main-map/>
-      </el-main>
-    </el-container>
+      </div>
   </div>
 </template>
 
@@ -53,15 +51,22 @@ h5 {
 
 #app {
   height: 100vh;
-}
-#main {
-  padding: 0;
-  height: 100vh;
-  width: 100%;
-  position: relative;
+  flex-direction: row;
+  display: flex;
 }
 
-.el-aside {
+#main {
+  flex: 1;
+  flex-basis: auto;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+#aside {
+  width: 300px;
   padding: 20px;
+  overflow: auto;
+  box-sizing: border-box;
+  flex-shrink: 0;
 }
 </style>

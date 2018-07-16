@@ -72,6 +72,7 @@ export default {
   left: 30px;
   z-index: 10;
 }
+
 #map {
   height: 100%;
   width: 100%;
@@ -83,5 +84,7 @@ export default {
 .map {
   height: 100%;
   width: 100%;
+  position: relative;
+  padding: 0;
 }
 </style>
