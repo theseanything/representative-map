@@ -40,7 +40,7 @@ for district in district_data["features"]:
         }
     )
 
-with open('senateDistricts.json', 'w') as f:
+with open('senateDistricts-test.json', 'w') as f:
     json.dump(senate_districts, f, separators=(',', ':'))
 
 
