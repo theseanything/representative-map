@@ -59,7 +59,7 @@ export default new Vuex.Store({
       )
     },
     async loadDistricts({ commit, state, getters }) {
-      import('../assets/senateDistricts.json').then(data =>
+      import('../assets/senateDistricts.json').then(data => {
         data.districts.forEach(d => {
           var senator = state.senators.senators.find(s => {
             return s.district === d.number
@@ -81,7 +81,7 @@ export default new Vuex.Store({
             senator: senator
           })
         })
-      )
+      })
     }
   }
 })

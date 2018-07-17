@@ -1,7 +1,16 @@
 import Vue from 'vue'
-import App from './App.vue'
-import * as VueGoogleMaps from 'vue2-google-maps'
 import store from './store'
+
+import App from './App.vue'
+
+import * as VueGoogleMaps from 'vue2-google-maps'
+
+import UIkit from 'uikit'
+import Icons from 'uikit/dist/js/uikit-icons'
+
+// loads the Icon plugin
+UIkit.use(Icons)
+
 // import VueAnalytics from 'vue-analytics'
 
 // Vue.use(VueAnalytics, {

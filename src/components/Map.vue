@@ -1,6 +1,6 @@
 <template>
   <div class="map">
-    <gmap-autocomplete id="autocomplete" @place_changed="setPlace" placeholder="Enter a location">
+    <gmap-autocomplete class="uk-input" id="autocomplete" @place_changed="setPlace" placeholder="Enter a location">
     </gmap-autocomplete>
     <gmap-map id="map" ref="mapRef" :center="center" :zoom="7" :options="{mapTypeControl: false, streetViewControl: false}">
       <gmap-marker 
@@ -71,6 +71,7 @@ export default {
   top: 30px;
   left: 30px;
   z-index: 10;
+  width: 350px;
 }
 
 #map {

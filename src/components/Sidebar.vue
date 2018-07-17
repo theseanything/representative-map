@@ -1,30 +1,41 @@
 <template>
   <div class="sidebar">
-        <h2>New York Representatives</h2>
-
-        <ul>
-          <li class="map-menu-item" >State Senate</li>
-        </ul>
-
+    <div class="uk-section uk-section-muted uk-section-xsmall">
+      <div class="uk-container">
+        <h1 class="uk-h3">New York State Senate</h1>
+        <!-- <ul uk-tab>
+          <li class="uk-active"><a href="">State Senate</a></li>
+          <li><a href="">About</a></li>
+        </ul> -->
+      </div>
+    </div>
           <!-- <el-button icon="el-icon-search" circle></el-button> -->
-        <div class="district-info" v-if="selectedDistrict">
-          <div>
-            <h3>District {{ selectedDistrict.number }}</h3>
-            <div class="partition"></div>
-            <img :src="'/headshots/cropped/'  + selectedDistrict.senator.district + '.jpg'" alt="" width="160" height="160">
-            <h3>{{ selectedDistrict.senator.name }}</h3>
-            <ul id="parties">
-              <li v-for="p in selectedDistrict.senator.parties" :key="p">{{ $store.getters.getPartyFullname(p) }}</li>
-            </ul>
+    <div class="uk-section uk-section-xsmall">
+      <div class="uk-container" v-if="selectedDistrict">
+          <h2>District {{ selectedDistrict.number }}</h2>
+          <hr>
+          <!-- <h4 class="uk-margin-small-top">Incumbent:</h4> -->
+          <div class="uk-grid-small uk-flex-middle" uk-grid>
+              <div class="uk-width-auto">
+                  <img class="uk-border-circle" width="60" height="60" :src="'/headshots/cropped/'  + selectedDistrict.senator.district + '.jpg'">
+              </div>
+              <div class="uk-width-expand">
+                  <h3 class="uk-margin-remove-bottom">{{ selectedDistrict.senator.name }}</h3>
+              </div>
+              <div class="uk-width-1-1">
+                <ul id="parties">
+                  <li v-for="p in selectedDistrict.senator.parties" :key="p">{{ $store.getters.getPartyFullname(p) }}</li>
+                </ul>
+              </div>
           </div>
-        </div>
+      </div>
 
-        <div class="district-info no-selection" v-if="!selectedDistrict">
-          <div>
-            <p id="no-district-text">No district selected.</p>
-          </div>
-        </div>
-  </div>
+      <div class="uk-container" v-if="!selectedDistrict">
+          Select a district <span uk-icon="arrow-right"></span>
+      </div>
+    </div>
+    </div>
+
 
 </template>
 <script>
@@ -47,71 +58,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h2 {
-  font-size: 18px;
-}
-
-h2,
-h3 {
-  font-weight: 300;
-  margin: 0;
-}
-
-input {
-  margin: 20px 0;
-}
-
 .sidebar {
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-}
-
-.map-menu {
-  display: flex;
-}
-
-.map-menu-item {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.district-info {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.partition {
-  margin: 10px 0;
-  height: 1px;
-  background: #e0e0e3;
-  width: 100%;
-}
-
-.district-info > div {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.no-selection > div {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-#no-district-text {
-  color: grey;
-}
-
-img {
-  border-radius: 50%;
-  height: 80px;
-  width: 80px;
 }
 </style>
