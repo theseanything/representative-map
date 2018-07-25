@@ -22,7 +22,7 @@
               <div class="uk-width-expand">
                   <h3 class="uk-margin-remove-bottom">{{ selectedDistrict.senator.name }}</h3>
               </div>
-              <div class="uk-width-1-1">
+              <div class="uk-width-1-1 uk-grid-margin">
                 <ul id="parties">
                   <li v-for="p in selectedDistrict.senator.parties" :key="p">{{ $store.getters.getPartyFullname(p) }}</li>
                 </ul>

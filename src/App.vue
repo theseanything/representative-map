@@ -57,8 +57,8 @@ $base-heading-font-weight: 300;
 
 #aside {
   width: 400px;
-  // overflow: auto;
-  // box-sizing: border-box;
-  // flex-shrink: 0;
+  overflow: auto;
+  box-sizing: border-box;
+  flex-shrink: 0;
 }
 </style>
