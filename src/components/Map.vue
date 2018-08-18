@@ -17,7 +17,7 @@
         }"
       />
       <gmap-polygon 
-        v-for="d in senateDistricts" 
+        v-for="d in districts" 
         :ref="'polygon' + d.number" 
         :key="d.number" 
         :paths="d.coordinates" 
@@ -39,7 +39,7 @@ export default {
     selectedDistrict () {
       return this.$store.state.selectedDistrict
     },
-    senateDistricts () {
+    districts () {
       return this.$store.state.districts
     }
   },
@@ -58,7 +58,7 @@ export default {
           var polygon = this.$refs[key][0].$polygonObject
           if (this.google.maps.geometry.poly.containsLocation(point, polygon)) {
             var districtNumber = key.substring(7)
-            this.$store.commit('setDistrict', this.senateDistricts.find(d => { return d.number == districtNumber }))
+            this.$store.commit('setDistrict', this.districts[districtNumber])
             return
           }
         }

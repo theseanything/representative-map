@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      <div id="aside">
+      <div id="aside" class="uk-width-large">
         <sidebar></sidebar>
       </div>
       <div id="main">
@@ -20,8 +20,7 @@ export default {
     Sidebar
   },
   created () {
-    this.$store.dispatch('loadPartyInfo')
-    this.$store.dispatch('loadSenators')
+    this.$store.dispatch('loadParties')
     this.$store.dispatch('loadDistricts')
   }
 }
@@ -56,7 +55,7 @@ $base-heading-font-weight: 300;
 }
 
 #aside {
-  width: 400px;
+  // width: 400px;
   overflow: auto;
   box-sizing: border-box;
   flex-shrink: 0;

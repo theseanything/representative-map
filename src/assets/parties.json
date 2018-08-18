@@ -1,0 +1,57 @@
+{
+  "Democratic": {
+    "name": "Democrat",
+    "acronyms": ["D", "DEM"],
+    "color": "#1b5187"
+  },
+  "Republican": {
+    "name": "Republican",
+    "acronyms": ["R", "REP"],
+    "color": "#87002f"
+  },
+  "Conservative": {
+    "name": "Conservative",
+    "acronyms": ["CON", "C"],
+    "color": ""
+  },
+  "Green": {
+    "name": "Green",
+    "acronyms": ["Green", "GRE"],
+    "color": ""
+  },
+  "Independence": {
+    "name": "Independence Party",
+    "acronyms": ["IP", "IND"],
+    "color": ""
+  },
+  "Independent": {
+    "name": "Independent",
+    "acronyms": ["I"],
+    "color": ""
+  },
+  "Save Jobs": {
+    "name": "Save Jobs",
+    "acronyms": ["SJ"],
+    "color": ""
+  },
+  "School Choice": {
+    "name": "School Choice",
+    "acronyms": ["SC"],
+    "color": ""
+  },
+  "Reform Party": {
+    "name": "Reform Party",
+    "acronyms": ["RFM", "REF"],
+    "color": ""
+  },
+  "Working Families": {
+    "name": "Working Families",
+    "acronyms": ["WF", "WOR"],
+    "color": ""
+  },
+  "Women's Equality": {
+    "name": "Women's Equality",
+    "acronyms": ["WE", "WEP"],
+    "color": ""
+  }
+}
