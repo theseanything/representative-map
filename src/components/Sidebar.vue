@@ -3,6 +3,12 @@
         <div class="uk-section uk-section-muted uk-section-xsmall">
             <div class="uk-container">
                 <h1 class="uk-h3">New York State Senate</h1>
+                <ul class="uk-subnav  uk-subnav-divider uk-margin-small-top" uk-margin>
+                    <li class="uk-active"><a href="">Candidates</a></li>
+                    <li><a href="">Primaries: Sept 13th</a></li>
+                    <li><a href="#"><span uk-icon="icon: info"></span></a></li>
+                    <li>{{ $route.params.number }}</li>
+                </ul>
                 <!-- <ul uk-tab>
                 <li class="uk-active"><a href="">State Senate</a></li>
                 <li><a href="">About</a></li>
@@ -23,10 +29,15 @@
                     </div>
                 </div>
             </div>
+            <div class="uk-container uk-margin-small-top" v-if="!selectedDistrict">
+                Select a district <span class="uk-icon" uk-icon="arrow-right"></span>
+            </div>
         </div>
-        <div class="uk-container" v-if="!selectedDistrict">
-            Select a district <span class="uk-icon" uk-icon="arrow-right"></span>
-        </div>
+        <!-- <div class="uk-section  uk-section-xsmall uk-position-bottom uk-padding-small">
+            <div class="uk-container">
+                
+            </div>
+        </div> -->
     </div>
 </template>
 <script>

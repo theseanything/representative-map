@@ -1,0 +1,14 @@
+<template>
+    <div class="error">
+        <h1>Page does not exist. 404 :(</h1>
+    </div>
+</template>
+<script>
+
+export default {
+    name: 'Error404',
+}
+
+</script>
+<style scoped>
+</style>

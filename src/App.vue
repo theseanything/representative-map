@@ -1,28 +1,13 @@
 <template>
   <div id="app">
-      <div id="aside" class="uk-width-large">
-        <sidebar></sidebar>
-      </div>
-      <div id="main">
-        <main-map/>
-      </div>
+      <router-view></router-view>
   </div>
 </template>
 
 <script>
-import MainMap from './components/Map.vue'
-import Sidebar from './components/Sidebar.vue'
 
 export default {
-  name: 'app',
-  components: {
-    MainMap,
-    Sidebar
-  },
-  created () {
-    this.$store.dispatch('loadParties')
-    this.$store.dispatch('loadDistricts')
-  }
+  name: 'app'
 }
 </script>
 
@@ -42,22 +27,7 @@ $base-heading-font-weight: 300;
 @import '~uikit/src/scss/uikit-theme.scss';
 
 #app {
-  height: 100vh;
-  flex-direction: row;
-  display: flex;
-}
-
-#main {
-  flex: 1;
-  flex-basis: auto;
-  overflow: auto;
-  box-sizing: border-box;
-}
-
-#aside {
-  // width: 400px;
-  overflow: auto;
-  box-sizing: border-box;
-  flex-shrink: 0;
+  height: 100%;
+  width: 100%;
 }
 </style>

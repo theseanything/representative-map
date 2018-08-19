@@ -21,8 +21,8 @@
         :ref="'polygon' + d.number" 
         :key="d.number" 
         :paths="d.coordinates" 
-        :options="d.options" 
-        @click="$store.commit('setDistrict', d)">
+        :options="getPolygonOption((d.number == districtNumber), '#000000')" 
+        @click="clickDistrict(d)">
       </gmap-polygon>
     </gmap-map>
   </div>
@@ -30,18 +30,15 @@
 </template>
 
 <script>
+import { mapState, mapMutations } from 'vuex'
 import { gmapApi } from 'vue2-google-maps'
 
 export default {
   name: 'Map',
   computed: {
-    google: gmapApi,
-    selectedDistrict () {
-      return this.$store.state.selectedDistrict
-    },
-    districts () {
-      return this.$store.state.districts
-    }
+    ...mapState(['districts', 'districtNumber']),
+    google: gmapApi
+
   },
   data () {
     return {
@@ -50,6 +47,20 @@ export default {
     }
   },
   methods: {
+    ...mapMutations(['setDistrict']),
+    getPolygonOption (selected, color) {
+      return {
+        geodesic: true,
+        strokeColor: color,
+        fillColor: color,
+        strokeWeight: selected ? 3 : 1,
+        fillOpacity: selected ? 0.3 : 0.1,
+        strokeOpacity: 0.2
+      }
+    },
+    clickDistrict (d) {
+      this.$router.push({ name: 'district', params: { districtNumber: d.number } })
+    },
     setPlace (place) {
       this.place = place
       var point = new this.google.maps.LatLng(this.place.geometry.location.lat(), this.place.geometry.location.lng())

@@ -5,13 +5,16 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    selectedDistrict: null,
+    districtNumber: null,
     parties: {},
     senators: null,
     districts: [],
     candidates: {}
   },
   getters: {
+    selectedDistrict: state => {
+      return state.districts[state.districtNumber] || null
+    },
     candidates: state => {
       return state.selectedDistrict
         ? state.selectedDistrict.candidates.map(c => state.candidates[c])
@@ -53,16 +56,18 @@ export default new Vuex.Store({
     }
   },
   mutations: {
-    setDistrict(state, district) {
-      if (state.selectedDistrict) {
-        state.selectedDistrict.options.strokeWeight = 1
-        state.selectedDistrict.options.fillOpacity = 0.1
+    selectDistrict(state, next) {
+      var prev = state.districtNumber
+      if (prev) {
+        state.districts[prev].options.strokeWeight = 1
+        state.districts[prev].options.fillOpacity = 0.1
       }
-      state.selectedDistrict =
-        state.selectedDistrict == district ? null : district
-      if (state.selectedDistrict) {
-        state.selectedDistrict.options.strokeWeight = 3
-        state.selectedDistrict.options.fillOpacity = 0.3
+      state.districtNumber = prev == next ? null : next
+      console.log(state.districtNumber)
+
+      if (state.districtNumber) {
+        state.districts[state.districtNumber].options.strokeWeight = 3
+        state.districts[state.districtNumber].options.fillOpacity = 0.3
       }
     },
     setParties(state, data) {
