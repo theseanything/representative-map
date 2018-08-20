@@ -41,5 +41,6 @@ const routes = [
 export default new VueRouter({
   mode: 'history',
   base: '/',
+  linkExactActiveClass: 'uk-active',
   routes
 })
