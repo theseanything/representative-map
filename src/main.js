@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import store from './store'
 import router from './router'
-
+import { sync } from 'vuex-router-sync'
 import App from './App.vue'
 
 import * as VueGoogleMaps from 'vue2-google-maps'
@@ -17,8 +17,8 @@ import Icons from 'uikit/dist/js/uikit-icons'
 
 // loads the Icon plugin
 UIkit.use(Icons)
-
 Vue.config.productionTip = false
+sync(store, router)
 
 Vue.use(VueGoogleMaps, {
   load: {

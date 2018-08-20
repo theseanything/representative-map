@@ -20,18 +20,14 @@ export default {
     Sidebar
   },
   created () {
-    this.$store.dispatch('loadParties')
-    this.$store.dispatch('loadDistricts')
+    this.$store.dispatch('fetchData')
   },
   watch: {
-    '$route' (to, from) {
-      if (to.params.districtNumber !== from.params.districtNumber) {
-        this.$store.commit('selectDistrict', to.params.districtNumber)
-      }
-    }
-  },
-  mounted: function () {
-    this.$store.commit('selectDistrict', this.$route.params.districtNumber)
+    // '$route' (to, from) {
+    //   if (to.params.districtNumber !== from.params.districtNumber) {
+    //     this.$store.commit('selectDistrict', to.params.districtNumber)
+    //   }
+    // }
   }
 }
 </script>

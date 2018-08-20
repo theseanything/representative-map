@@ -5,7 +5,6 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    districtNumber: null,
     parties: {},
     senators: null,
     districts: [],
@@ -13,7 +12,33 @@ export default new Vuex.Store({
   },
   getters: {
     selectedDistrict: state => {
-      return state.districts[state.districtNumber] || null
+      return state.districts[state.route.params.districtNumber] || null
+    },
+    polygonOptions: (state, getters) => number => {
+      var selected = state.route.params.districtNumber === number
+      var color = getters.districtColor(number)
+      return {
+        geodesic: true,
+        strokeColor: color,
+        fillColor: color,
+        strokeWeight: selected ? 3 : 1,
+        fillOpacity: selected ? 0.3 : 0.1,
+        strokeOpacity: 0.2
+      }
+    },
+    districtColor: state => number => {
+      var parties = state.senators[state.districts[number].senator].parties
+      for (var i = 0; i < parties.length; i++) {
+        if (state.parties['Democratic'].acronyms.includes(parties[i])) {
+          return state.parties['Democratic'].color
+        }
+
+        if (state.parties['Republican'].acronyms.includes(parties[i])) {
+          return state.parties['Republican'].color
+        }
+      }
+
+      return '#000990'
     },
     candidates: state => {
       return state.selectedDistrict
@@ -25,16 +50,16 @@ export default new Vuex.Store({
         ? state.senators[state.selectedDistrict.senator]
         : null
     },
-    people: state => {
+    people: (state, getters) => {
       var people = []
-      if (state.selectedDistrict) {
-        var includesSenator = state.selectedDistrict.candidates.includes(
-          state.selectedDistrict.senator
+      if (getters.selectedDistrict) {
+        var includesSenator = getters.selectedDistrict.candidates.includes(
+          getters.selectedDistrict.senator
         )
         if (!includesSenator) {
-          people.push(state.senators[state.selectedDistrict.senator])
+          people.push(state.senators[getters.selectedDistrict.senator])
         }
-        people = state.selectedDistrict.candidates.map(c => {
+        people = getters.selectedDistrict.candidates.map(c => {
           return state.candidates[c]
         })
       }
@@ -45,31 +70,9 @@ export default new Vuex.Store({
         if (state.parties[p].acronyms.find(a => a === abbr)) return p
       }
       return abbr
-    },
-    getBoundaryColor: state => parties => {
-      if (parties.includes('D')) {
-        return state.parties['Democratic'].color
-      } else if (parties.includes('R')) {
-        return state.parties['Republican'].color
-      }
-      return '#000000'
     }
   },
   mutations: {
-    selectDistrict(state, next) {
-      var prev = state.districtNumber
-      if (prev) {
-        state.districts[prev].options.strokeWeight = 1
-        state.districts[prev].options.fillOpacity = 0.1
-      }
-      state.districtNumber = prev == next ? null : next
-      console.log(state.districtNumber)
-
-      if (state.districtNumber) {
-        state.districts[state.districtNumber].options.strokeWeight = 3
-        state.districts[state.districtNumber].options.fillOpacity = 0.3
-      }
-    },
     setParties(state, data) {
       state.parties = data
     },
@@ -99,27 +102,16 @@ export default new Vuex.Store({
         commit('setCandidates', data.default)
       )
     },
-    async loadDistricts({ commit, state, getters, dispatch }) {
-      await dispatch('loadSenators')
-      await dispatch('loadCandidates')
+    loadDistricts({ commit }) {
       import('../assets/districts.json').then(data => {
-        var districts = data.default
-        for (var number in districts) {
-          var color = getters.getBoundaryColor(
-            state.senators[districts[number].senator].parties
-          )
-          districts[number].options = {
-            geodesic: true,
-            strokeColor: color,
-            fillColor: color,
-            strokeWeight: 1,
-            fillOpacity: 0.1,
-            strokeOpacity: 0.2
-          }
-        }
-
-        commit('setDistricts', districts)
+        commit('setDistricts', data.default)
       })
+    },
+    fetchData({ dispatch }) {
+      dispatch('loadParties')
+      dispatch('loadSenators')
+      dispatch('loadCandidates')
+      dispatch('loadDistricts')
     }
   }
 })

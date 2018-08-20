@@ -3,18 +3,31 @@ import VueRouter from 'vue-router'
 
 import Error404 from '../components/Error404.vue'
 import Layout from '../components/Layout.vue'
+import CandidateList from '../components/CandidateList.vue'
+import CandidatePlaceholder from '../components/CandidatePlaceholder.vue'
+import About from '../components/About.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'home',
     component: Layout,
     children: [
       {
-        path: '/district/:districtNumber',
-        name: 'district'
+        path: '',
+        name: 'home',
+        component: CandidatePlaceholder
+      },
+      {
+        path: '/districts/:districtNumber',
+        name: 'district',
+        component: CandidateList
+      },
+      {
+        path: '/about',
+        name: 'about',
+        component: About
       }
     ]
   },
