@@ -6,7 +6,7 @@
 
             <div class="uk-flex uk-flex-column">
                 <div v-if="people.length > 0">
-                    <Candidate v-for='p in people' :key="p.name" :info="p"/>
+                    <Candidate v-for='p in people' :key="p.name" :info="p" :incumbent="p.name === selectedDistrict.senator"/>
                 </div>
                 <div class="uk-text-top" v-else >
                     <span class="uk-margin-small-right uk-icon" uk-icon="warning"></span>No data

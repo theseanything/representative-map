@@ -8,9 +8,6 @@
                     <li>
                         <span>Next Election: Sept 13th</span> 
                     </li>
-                    <!-- <li v-bind:class="{ 'uk-active': $router.currentRoute.name === 'about' }">
-                        <router-link to="/about"><span uk-icon="info"></span></router-link>
-                    </li> -->
                 </ul>
             </div>
         </div>
