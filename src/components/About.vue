@@ -6,22 +6,22 @@
             <hr>
             <p>
                 The State Senate is partially responsible for lawmaking in New York State. 
-                The Senate is divided into 63 districts with a elected Senator representing each one. 
+                The Senate is divided into 63 districts each represented by an elected Senator. 
                 <br>
                 <br>
                 To learn more visit the 
-                <a href="https://www.nysenate.gov/branches-government-new-york-state"> New York State Senate</a> website. 
+                <a target="_blank" rel="noopener noreferrer" href="https://www.nysenate.gov/branches-government-new-york-state"> New York State Senate</a> website. 
             </p>
             <h4>The Website</h4>
             <hr>
             <p>
-                This website was built using <a href="https://vuejs.org/">Vue.js</a> and data was collected from various sources. The code is open source and can be found 
-                <a href="https://github.com/theseanything/representative-map">here</a>.
+                This website was built using <a target="_blank" rel="noopener noreferrer" href="https://vuejs.org/">Vue.js</a> and data was collected from various sources. The code is open source and can be found 
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/theseanything/representative-map">here</a>.
             </p>
             <p>
                 Data provided by this site may be missing or incorrect. 
                 For offical election information please contact the 
-                <a href="https://www.elections.ny.gov/Contact.html">New York Board of Elections</a>.
+                <a target="_blank" rel="noopener noreferrer" href="https://www.elections.ny.gov/Contact.html">New York Board of Elections</a>.
             </p>
             <p>
                 If there is problem please contact:<br> <a href="mailto:srdeveloper@icloud.com">srdeveloper@icloud.com</a>  

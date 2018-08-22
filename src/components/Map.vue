@@ -7,7 +7,24 @@
       placeholder="Enter a location"
       aria-label="Search for a location">
     </gmap-autocomplete>
-    <gmap-map id="map" ref="mapRef" :center="center" :zoom="7" :options="{mapTypeControl: false, streetViewControl: false}">
+    <div id="toggle-location"  class="uk-button-group">
+      <button 
+        @click="toggleNyc"
+        class="uk-button uk-button-default toggle-location-button">
+        NYC
+      </button>
+      <button 
+        @click="toggleNys"
+        class="uk-button uk-button-default toggle-location-button">
+        NYS
+      </button>
+    </div>
+    <gmap-map id="map" ref="mapRef" :center="center" :zoom="7" 
+      :options="{
+        mapTypeControl: false, 
+        streetViewControl: false,
+        fullscreenControl: false
+      }">
       <gmap-marker 
         v-if="this.place" 
         label="★" 
@@ -44,7 +61,9 @@ export default {
     return {
       center: { lat: 42.7466321, lng: -75.770041 },
       place: null,
-      options: {}
+      toggledNyc: false,
+      nycBounds: { south: 40.4773991, west: -74.25908989999999, north: 40.9175771, east: -73.70027209999999 },
+      nysBounds: { south: 40.4773991, west: -79.7625901, north: 45.015865, east: -71.777491 }
     }
   },
   methods: {
@@ -69,6 +88,12 @@ export default {
           }
         }
       }
+    },
+    toggleNys () {
+      this.$refs.mapRef.$mapPromise.then(map => map.fitBounds(this.nysBounds))
+    },
+    toggleNyc () {
+      this.$refs.mapRef.$mapPromise.then(map => map.fitBounds(this.nycBounds))
     }
   },
   watch: {
@@ -93,6 +118,23 @@ export default {
   left: 30px;
   z-index: 10;
   width: 350px;
+}
+
+#toggle-location {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  z-index: 10;
+  background: #fff;
+}
+
+#toggle-location:hover {
+  background: #fff;
+}
+
+.toggle-location-button {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #map {

@@ -3,17 +3,34 @@
         <div class="uk-container" v-if="selectedDistrict">
             <div class="uk-flex uk-flex-middle">
             <h2 class="uk-flex-1 uk-margin-remove">District {{ selectedDistrict.number }}</h2>
-            <div class="uk-slidenav-container uk-flex">
-                <a @click="prevDistrict" uk-slidenav-previous></a>
-                <a @click="nextDistrict" uk-slidenav-next></a>
+            <div class="uk-flex">
+                <button 
+                    @click="prevDistrict" 
+                    class="uk-button uk-button-default uk-padding-remove arrow-button"
+                    :disabled="parseInt(districtNumber) <= 1">
+                    <span uk-icon="icon: chevron-left; ratio: 1.6;"></span>
+                </button>
+                <button 
+                    @click="nextDistrict" 
+                    class="uk-button uk-button-default uk-padding-remove arrow-button" 
+                    :disabled="parseInt(districtNumber) >= maxDistricts">
+                    <span class="" uk-icon="icon: chevron-right; ratio: 1.6;"></span>
+                </button>
+                <!-- <a @click="prevDistrict" uk-slidenav-previous></a>
+                <a @click="nextDistrict" uk-slidenav-next></a> -->
             </div>
             </div>
             
             <hr>
 
             <div class="uk-flex uk-flex-column">
-                <div v-if="people.length > 0">
-                    <Candidate v-for='p in people' :key="p.name" :info="p" :incumbent="p.name === selectedDistrict.senator"/>
+                <div v-if="districtPeople.length > 0">
+                    <Candidate 
+                        v-for='p in districtPeople' 
+                        :key="p.name" 
+                        :info="p" 
+                        :incumbent="p.name === selectedDistrict.senator"
+                        :district="districtNumber"/>
                 </div>
                 <div class="uk-text-top" v-else >
                     <span class="uk-margin-small-right uk-icon" uk-icon="warning"></span>No data
@@ -33,7 +50,7 @@ export default {
     },
     computed: {
         ...mapState(['route']),
-        ...mapGetters(['getPartyFullname', 'people', 'selectedDistrict', 'maxDistricts', 'districtNumber'])
+        ...mapGetters(['getPartyFullname', 'districtPeople', 'selectedDistrict', 'maxDistricts', 'districtNumber'])
     },
     methods: {
         nextDistrict: function () {
@@ -65,5 +82,10 @@ ul.parties > li {
   display: inline-block;
   margin: 0 10px;
   /* You can also add some margins here to make it look prettier */
+}
+
+.arrow-button {
+  border: none;
+  color: #999;
 }
 </style>

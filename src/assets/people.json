@@ -8,9 +8,9 @@
         "image_url": "",
         "name": "Aaron W Gladd",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "Aaron Gladd",
         "twitter_screen_name": "AaronGladd",
@@ -56,11 +56,11 @@
         "image_url": "",
         "name": "Andrea Stewart-Cousins",
         "parties": [
-            "IND",
             "DEM",
+            "IND",
             "WEP",
-            "WOR",
-            "REF"
+            "REF",
+            "WOR"
         ],
         "searchable_name": "Andrea Stewart-Cousins",
         "twitter_screen_name": "AndreaSCousins",
@@ -93,7 +93,7 @@
             "R"
         ],
         "searchable_name": "Andrew Lanza",
-        "twitter_screen_name": "SenKennedy",
+        "twitter_screen_name": "",
         "website": "www.senatorandrewlanza.com"
     },
     "Andrew S Gounardes": {
@@ -107,8 +107,8 @@
         "parties": [
             "DEM",
             "WEP",
-            "WOR",
-            "REF"
+            "REF",
+            "WOR"
         ],
         "searchable_name": "Andrew Gounardes",
         "twitter_screen_name": "agounardes",
@@ -156,9 +156,9 @@
         "image_url": "",
         "name": "Anna M Kaplan",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "Anna Kaplan",
         "twitter_screen_name": "AnnaMKaplan",
@@ -213,8 +213,8 @@
     "Barbara N Taylor": {
         "candidate": true,
         "districts": [
-            "25",
-            "18"
+            "18",
+            "25"
         ],
         "facebook": "",
         "image_url": "",
@@ -313,8 +313,8 @@
         "image_url": "",
         "name": "Brian W Kelly",
         "parties": [
-            "CON",
-            "REP"
+            "REP",
+            "CON"
         ],
         "searchable_name": "Brian Kelly",
         "twitter_screen_name": "BKBrianKelly",
@@ -347,9 +347,9 @@
         "image_url": "",
         "name": "Carima C El Behairy",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "Carima El-Behairy",
         "twitter_screen_name": "carima4senate",
@@ -400,9 +400,9 @@
         "image_url": "",
         "name": "Christopher F Davis",
         "parties": [
-            "CON",
             "REP",
-            "REF"
+            "REF",
+            "CON"
         ],
         "searchable_name": "Christopher Davis",
         "twitter_screen_name": "DavisForNYS",
@@ -450,11 +450,12 @@
             "38"
         ],
         "facebook": "",
+        "idc": true,
         "image_url": "",
         "name": "David Carlucci",
         "parties": [
-            "WEP",
-            "DEM"
+            "DEM",
+            "WEP"
         ],
         "searchable_name": "David Carlucci",
         "twitter_screen_name": "DavidCarlucci",
@@ -466,6 +467,7 @@
             "53"
         ],
         "facebook": "",
+        "idc": true,
         "image_url": "",
         "name": "David J Valesky",
         "parties": [
@@ -486,8 +488,8 @@
         "image_url": "",
         "name": "David Krainert",
         "parties": [
-            "CON",
-            "REP"
+            "REP",
+            "CON"
         ],
         "searchable_name": "David Krainert",
         "twitter_screen_name": "DavidKrainert",
@@ -517,11 +519,12 @@
             "23"
         ],
         "facebook": "",
+        "idc": true,
         "image_url": "",
         "name": "Diane J Savino",
         "parties": [
-            "IND",
             "DEM",
+            "IND",
             "WEP",
             "REF"
         ],
@@ -589,8 +592,8 @@
         "image_url": "",
         "name": "Francis X Becker Jr",
         "parties": [
-            "CON",
-            "REP"
+            "REP",
+            "CON"
         ],
         "searchable_name": "Francis Becker",
         "twitter_screen_name": "FrancisBecker",
@@ -688,9 +691,9 @@
         "image_url": "",
         "name": "James F Gaughran",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "James Gaughran",
         "twitter_screen_name": "Gaughran4Senate",
@@ -707,8 +710,8 @@
         "parties": [
             "DEM",
             "WEP",
-            "WOR",
-            "REF"
+            "REF",
+            "WOR"
         ],
         "searchable_name": "James Skoufis",
         "twitter_screen_name": "JamesSkoufis",
@@ -759,9 +762,9 @@
         "image_url": "",
         "name": "James Sanders Jr",
         "parties": [
-            "DEM",
+            "REF",
             "WOR",
-            "REF"
+            "DEM"
         ],
         "searchable_name": "James Sanders",
         "twitter_screen_name": "JSandersNYC",
@@ -791,8 +794,8 @@
         "image_url": "",
         "name": "Janet Berl Burman",
         "parties": [
-            "CON",
-            "REP"
+            "REP",
+            "CON"
         ],
         "searchable_name": "Janet Burman",
         "twitter_screen_name": "",
@@ -820,11 +823,12 @@
             "34"
         ],
         "facebook": "",
+        "idc": true,
         "image_url": "",
         "name": "Jeffrey D Klein",
         "parties": [
-            "IND",
-            "DEM"
+            "DEM",
+            "IND"
         ],
         "searchable_name": "Jeffrey Klein",
         "twitter_screen_name": "JeffKleinNY",
@@ -839,8 +843,8 @@
         "image_url": "",
         "name": "Jeffrey J Ferretti",
         "parties": [
-            "CON",
-            "REP"
+            "REP",
+            "CON"
         ],
         "searchable_name": "Jeffrey Ferretti",
         "twitter_screen_name": "",
@@ -888,9 +892,9 @@
         "image_url": "",
         "name": "Jen Metzger",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "Jen Metzger",
         "twitter_screen_name": "JenMetzgerNY",
@@ -905,9 +909,9 @@
         "image_url": "",
         "name": "Jeremy A Cooney",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "Jeremy Cooney",
         "twitter_screen_name": "Cooney4NYSenate",
@@ -919,6 +923,7 @@
             "20"
         ],
         "facebook": "",
+        "idc": true,
         "image_url": "",
         "name": "Jesse E Hamilton",
         "parties": [
@@ -955,9 +960,9 @@
         "image_url": "",
         "name": "Joan Elizabeth Seamans",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "Joan Seamans",
         "twitter_screen_name": "JoanElizSeamans",
@@ -977,7 +982,7 @@
             "IP"
         ],
         "searchable_name": "John DeFrancisco",
-        "twitter_screen_name": "SenKennedy",
+        "twitter_screen_name": "",
         "website": "kennedy.nysenate.gov/"
     },
     "John E Brooks": {
@@ -989,9 +994,9 @@
         "image_url": "",
         "name": "John E Brooks",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "John Brooks",
         "twitter_screen_name": "Brooks4LINY",
@@ -1029,7 +1034,7 @@
             "IP"
         ],
         "searchable_name": "John Bonacic",
-        "twitter_screen_name": "SenKennedy",
+        "twitter_screen_name": "",
         "website": "kennedy.nysenate.gov/"
     },
     "John Liu": {
@@ -1058,8 +1063,8 @@
         "parties": [
             "DEM",
             "WEP",
-            "WOR",
-            "REF"
+            "REF",
+            "WOR"
         ],
         "searchable_name": "John Mannion",
         "twitter_screen_name": "mannionfor50",
@@ -1102,11 +1107,12 @@
             "13"
         ],
         "facebook": "",
+        "idc": true,
         "image_url": "",
         "name": "Jose R Peralta",
         "parties": [
-            "IND",
             "DEM",
+            "IND",
             "WEP",
             "REF"
         ],
@@ -1161,8 +1167,8 @@
         "parties": [
             "DEM",
             "WEP",
-            "WOR",
-            "REF"
+            "REF",
+            "WOR"
         ],
         "searchable_name": "Joseph Addabbo",
         "twitter_screen_name": "SenJoeAddabbo",
@@ -1177,8 +1183,8 @@
         "image_url": "",
         "name": "Joyce St George",
         "parties": [
-            "WEP",
-            "DEM"
+            "DEM",
+            "WEP"
         ],
         "searchable_name": "Joyce George",
         "twitter_screen_name": "stgeorge4senate",
@@ -1223,9 +1229,9 @@
         "image_url": "",
         "name": "Karen S Smythe",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "Karen Smythe",
         "twitter_screen_name": "Karen4NYSenate",
@@ -1245,7 +1251,7 @@
             "IP"
         ],
         "searchable_name": "Kathleen Marchione",
-        "twitter_screen_name": "SenKennedy",
+        "twitter_screen_name": "",
         "website": "kennedy.nysenate.gov/"
     },
     "Kathleen Bradbury Cleary": {
@@ -1257,8 +1263,8 @@
         "image_url": "",
         "name": "Kathleen Bradbury Cleary",
         "parties": [
-            "WEP",
-            "DEM"
+            "DEM",
+            "WEP"
         ],
         "searchable_name": "Kathleen Cleary",
         "twitter_screen_name": "ClearyforSenate",
@@ -1291,9 +1297,9 @@
         "image_url": "",
         "name": "Kenan S Baldridge",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "Kenan Baldridge",
         "twitter_screen_name": "kbaldridge54",
@@ -1326,9 +1332,9 @@
         "image_url": "",
         "name": "Kevin M Thomas",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "Kevin Thomas",
         "twitter_screen_name": "KevinThomasNY",
@@ -1343,9 +1349,9 @@
         "image_url": "",
         "name": "Kevin S Parker",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "Kevin Parker",
         "twitter_screen_name": "SenatorParker",
@@ -1375,9 +1381,9 @@
         "image_url": "",
         "name": "Leroy G Comrie Jr",
         "parties": [
-            "DEM",
+            "REF",
             "WOR",
-            "REF"
+            "DEM"
         ],
         "searchable_name": "Leroy Comrie",
         "twitter_screen_name": "LeroyComrie",
@@ -1408,9 +1414,9 @@
         "image_url": "",
         "name": "Louis D'Amaro",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "Louis D'Amaro",
         "twitter_screen_name": "DAmaro4NY",
@@ -1440,9 +1446,9 @@
         "image_url": "",
         "name": "Luis Sepulveda",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "Luis Sepulveda",
         "twitter_screen_name": "LuisSepulvedaNY",
@@ -1454,6 +1460,7 @@
             "31"
         ],
         "facebook": "",
+        "idc": true,
         "image_url": "",
         "name": "Marisol Alcantara",
         "parties": [
@@ -1507,8 +1514,8 @@
         "image_url": "",
         "name": "Martin M Dilan",
         "parties": [
-            "IND",
-            "DEM"
+            "DEM",
+            "IND"
         ],
         "searchable_name": "Martin Dilan",
         "twitter_screen_name": "SenatorDilan",
@@ -1589,9 +1596,9 @@
         "image_url": "",
         "name": "Michelle Ostrelich",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "Michelle Ostrelich",
         "twitter_screen_name": "michelle4nys",
@@ -1621,9 +1628,9 @@
         "image_url": "",
         "name": "Monica R Martinez",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "Monica Martinez",
         "twitter_screen_name": "MonicaForSenate",
@@ -1638,9 +1645,9 @@
         "image_url": "",
         "name": "Neil D Breslin",
         "parties": [
+            "WOR",
             "DEM",
-            "IND",
-            "WOR"
+            "IND"
         ],
         "searchable_name": "Neil Breslin",
         "twitter_screen_name": "NeilBreslin44",
@@ -1688,8 +1695,8 @@
         "image_url": "",
         "name": "Pamela Stewart-Martinez",
         "parties": [
-            "DEM",
-            "REF"
+            "REF",
+            "DEM"
         ],
         "searchable_name": "Pamela Stewart-Martinez",
         "twitter_screen_name": "",
@@ -1704,9 +1711,9 @@
         "image_url": "",
         "name": "Pat Courtney Strong",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "Pat Strong",
         "twitter_screen_name": "votepatstrong",
@@ -1721,9 +1728,9 @@
         "image_url": "",
         "name": "Patricia A Ritchie",
         "parties": [
+            "REP",
             "CON",
-            "IND",
-            "REP"
+            "IND"
         ],
         "searchable_name": "Patricia Ritchie",
         "twitter_screen_name": "SenatorRitchie",
@@ -1786,9 +1793,9 @@
         "image_url": "",
         "name": "Peter B Harckham",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "Peter Harckham",
         "twitter_screen_name": "",
@@ -1803,9 +1810,9 @@
         "image_url": "",
         "name": "Peter Holmberg",
         "parties": [
-            "IND",
             "REP",
-            "REF"
+            "REF",
+            "IND"
         ],
         "searchable_name": "Peter Holmberg",
         "twitter_screen_name": "PeteHolmbergNYC",
@@ -1820,9 +1827,9 @@
         "image_url": "",
         "name": "Philip M Boyle",
         "parties": [
+            "REP",
             "CON",
-            "IND",
-            "REP"
+            "IND"
         ],
         "searchable_name": "Philip Boyle",
         "twitter_screen_name": "PhilBoyleNY",
@@ -1901,9 +1908,9 @@
         "image_url": "",
         "name": "Robert E Antonacci II",
         "parties": [
+            "REP",
             "CON",
-            "IND",
-            "REP"
+            "IND"
         ],
         "searchable_name": "Robert Antonacci",
         "twitter_screen_name": "AntonacciCPA",
@@ -1997,9 +2004,9 @@
         "image_url": "",
         "name": "Roxanne J Persaud",
         "parties": [
+            "WOR",
             "DEM",
-            "IND",
-            "WOR"
+            "IND"
         ],
         "searchable_name": "Roxanne Persaud",
         "twitter_screen_name": "SenatorPersaud",
@@ -2029,8 +2036,8 @@
         "image_url": "",
         "name": "Shelley B Mayer",
         "parties": [
-            "IND",
             "DEM",
+            "IND",
             "WEP",
             "WOR"
         ],
@@ -2039,6 +2046,7 @@
         "website": ""
     },
     "Simcha Felder": {
+        "alignsRepublican": true,
         "candidate": true,
         "districts": [
             "17"
@@ -2048,9 +2056,9 @@
         "name": "Simcha Felder",
         "parties": [
             "CON",
+            "DEM",
             "IND",
-            "REP",
-            "DEM"
+            "REP"
         ],
         "searchable_name": "Simcha Felder",
         "twitter_screen_name": "NYSenatorFelder",
@@ -2065,9 +2073,9 @@
         "image_url": "",
         "name": "Simon H Minching",
         "parties": [
-            "CON",
             "REP",
-            "REF"
+            "REF",
+            "CON"
         ],
         "searchable_name": "Simon Minching",
         "twitter_screen_name": "s_minching",
@@ -2193,9 +2201,9 @@
         "image_url": "",
         "name": "Thomas Basile",
         "parties": [
+            "REP",
             "CON",
-            "IND",
-            "REP"
+            "IND"
         ],
         "searchable_name": "Thomas Basile",
         "twitter_screen_name": "Tom_Basile",
@@ -2213,7 +2221,7 @@
             "R"
         ],
         "searchable_name": "Thomas Croci",
-        "twitter_screen_name": "SenKennedy",
+        "twitter_screen_name": "",
         "website": "kennedy.nysenate.gov/"
     },
     "Thomas F O'Mara": {
@@ -2261,8 +2269,8 @@
         "image_url": "",
         "name": "Timothy M Kennedy",
         "parties": [
-            "IND",
             "DEM",
+            "IND",
             "WEP",
             "WOR"
         ],
@@ -2294,9 +2302,9 @@
         "image_url": "",
         "name": "Toby Ann Stavisky",
         "parties": [
+            "WOR",
             "DEM",
-            "WEP",
-            "WOR"
+            "WEP"
         ],
         "searchable_name": "Toby Stavisky",
         "twitter_screen_name": "tobystavisky",
@@ -2311,11 +2319,11 @@
         "image_url": "",
         "name": "Todd D Kaminsky",
         "parties": [
-            "IND",
             "DEM",
+            "IND",
             "WEP",
-            "WOR",
-            "REF"
+            "REF",
+            "WOR"
         ],
         "searchable_name": "Todd Kaminsky",
         "twitter_screen_name": "toddkaminsky",
@@ -2327,11 +2335,12 @@
             "11"
         ],
         "facebook": "",
+        "idc": true,
         "image_url": "",
         "name": "Tony Avella",
         "parties": [
-            "IND",
             "DEM",
+            "IND",
             "WEP",
             "REF"
         ],
@@ -2413,7 +2422,7 @@
             "C"
         ],
         "searchable_name": "William Larkin",
-        "twitter_screen_name": "SenKennedy",
+        "twitter_screen_name": "",
         "website": "kennedy.nysenate.gov/"
     },
     "Zellnor Y Myrie": {

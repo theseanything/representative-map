@@ -8,12 +8,12 @@ import * as VueGoogleMaps from 'vue2-google-maps'
 
 import UIkit from 'uikit'
 import Icons from 'uikit/dist/js/uikit-icons'
-// import VueMatomo from 'vue-matomo'
+import VueMatomo from 'vue-matomo'
 
-// Vue.use(VueMatomo, {
-//   host: process.env.VUE_APP_MATOMO_HOST,
-//   siteId: process.env.VUE_APP_MATOMO_SITE_ID
-// })
+Vue.use(VueMatomo, {
+  host: process.env.VUE_APP_MATOMO_HOST,
+  siteId: process.env.VUE_APP_MATOMO_SITE_ID
+})
 
 // loads the Icon plugin
 UIkit.use(Icons)

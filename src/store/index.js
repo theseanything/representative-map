@@ -4,7 +4,7 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 function districtColor(state, district) {
-  var parties = state.senators[district.senator].parties
+  var parties = state.people[district.senator].parties
   for (var i = 0; i < parties.length; i++) {
     if (state.parties['Democratic'].acronyms.includes(parties[i])) {
       return state.parties['Democratic'].color
@@ -21,9 +21,8 @@ function districtColor(state, district) {
 export default new Vuex.Store({
   state: {
     parties: {},
-    senators: null,
     districts: {},
-    candidates: {}
+    people: {}
   },
   getters: {
     selectedDistrict: state => {
@@ -42,21 +41,21 @@ export default new Vuex.Store({
     },
     senator: state => {
       return state.selectedDistrict
-        ? state.senators[state.selectedDistrict.senator]
+        ? state.people[state.selectedDistrict.senator]
         : null
     },
-    people: (state, getters) => {
+    districtPeople: (state, getters) => {
       var people = []
       if (getters.selectedDistrict) {
         var includesSenator = getters.selectedDistrict.candidates.includes(
           getters.selectedDistrict.senator
         )
-        if (!includesSenator) {
-          people.push(state.senators[getters.selectedDistrict.senator])
-        }
         people = getters.selectedDistrict.candidates.map(c => {
-          return state.candidates[c]
+          return state.people[c]
         })
+        if (!includesSenator) {
+          people.push(state.people[getters.selectedDistrict.senator])
+        }
       }
       return people
     },
@@ -71,8 +70,8 @@ export default new Vuex.Store({
     setParties(state, data) {
       state.parties = data
     },
-    setSenators(state, data) {
-      state.senators = data
+    setPeople(state, data) {
+      state.people = data
     },
     setDistricts(state, districts) {
       for (var d in districts) {
@@ -93,9 +92,6 @@ export default new Vuex.Store({
       }
       state.districts = districts
     },
-    setCandidates(state, candidates) {
-      state.candidates = candidates
-    },
     highlightDistrict(state, districtNumber) {
       state.districts[districtNumber].options.strokeWeight = 3
       state.districts[districtNumber].options.fillOpacity = 0.3
@@ -111,14 +107,9 @@ export default new Vuex.Store({
         commit('setParties', data.default)
       )
     },
-    loadSenators({ commit }) {
-      import('../assets/senators.json').then(data =>
-        commit('setSenators', data.default)
-      )
-    },
-    loadCandidates({ commit }) {
-      import('../assets/candidates.json').then(data =>
-        commit('setCandidates', data.default)
+    loadPeople({ commit }) {
+      import('../assets/people.json').then(data =>
+        commit('setPeople', data.default)
       )
     },
     loadDistricts({ commit }) {
@@ -127,11 +118,7 @@ export default new Vuex.Store({
       })
     },
     async fetchData({ dispatch }) {
-      await Promise.all([
-        dispatch('loadParties'),
-        dispatch('loadSenators'),
-        dispatch('loadCandidates')
-      ])
+      await Promise.all([dispatch('loadParties'), dispatch('loadPeople')])
       dispatch('loadDistricts')
     }
   }

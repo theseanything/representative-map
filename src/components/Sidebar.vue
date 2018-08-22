@@ -21,7 +21,7 @@
         <div class="uk-section uk-background-default uk-section-xsmall uk-position-bottom uk-width-large">
             <div class=" uk-container uk-flex uk-margin-remove uk-flex-middle">
                 <div class="uk-flex-1">
-                    <p class="uk-text-meta text-small uk-margin-remove">Made with ♥︎ by <a href="https://github.com/theseanything">theseanything.</a></p>
+                    <p class="uk-text-meta text-small uk-margin-remove">Made with ♥︎ by <a target="_blank" rel="noopener noreferrer" href="https://github.com/theseanything">theseanything.</a></p>
                 </div>
                 <div>
                     <router-link active-class="link-active" class="uk-text-meta link" to="/about">About <span uk-icon="icon: info; ratio: 0.8"></span></router-link>
