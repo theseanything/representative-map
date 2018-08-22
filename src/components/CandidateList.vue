@@ -1,7 +1,14 @@
 <template>
     <div class="uk-section uk-section-xsmall">
         <div class="uk-container" v-if="selectedDistrict">
-            <h2>District {{ selectedDistrict.number }}</h2>
+            <div class="uk-flex uk-flex-middle">
+            <h2 class="uk-flex-1 uk-margin-remove">District {{ selectedDistrict.number }}</h2>
+            <div class="uk-slidenav-container uk-flex">
+                <a @click="prevDistrict" uk-slidenav-previous></a>
+                <a @click="nextDistrict" uk-slidenav-next></a>
+            </div>
+            </div>
+            
             <hr>
 
             <div class="uk-flex uk-flex-column">
@@ -17,7 +24,7 @@
 </template>
 <script>
 import Candidate from './Candidate.vue'
-import { mapGetters } from 'vuex'
+import { mapState, mapGetters } from 'vuex'
 
 export default {
     name: 'CandidateList',
@@ -25,7 +32,28 @@ export default {
         Candidate
     },
     computed: {
-        ...mapGetters(['getPartyFullname', 'people', 'selectedDistrict'])
+        ...mapState(['route']),
+        ...mapGetters(['getPartyFullname', 'people', 'selectedDistrict', 'maxDistricts', 'districtNumber'])
+    },
+    methods: {
+        nextDistrict: function () {
+            var number = parseInt(this.districtNumber)
+            if (number < this.maxDistricts) {
+                this.$router.push({
+                    name: 'district',
+                    params: { districtNumber: (number + 1).toString() }
+                })
+            }
+        },
+        prevDistrict: function () {
+            var number = parseInt(this.districtNumber)
+            if (number > 1) {
+                this.$router.push({
+                    name: 'district',
+                    params: { districtNumber: (number - 1).toString() }
+                })
+            }
+        }
     }
 }
 

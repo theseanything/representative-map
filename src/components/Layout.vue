@@ -21,13 +21,6 @@ export default {
   },
   created () {
     this.$store.dispatch('fetchData')
-  },
-  watch: {
-    // '$route' (to, from) {
-    //   if (to.params.districtNumber !== from.params.districtNumber) {
-    //     this.$store.commit('selectDistrict', to.params.districtNumber)
-    //   }
-    // }
   }
 }
 </script>

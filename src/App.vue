@@ -13,7 +13,7 @@ export default {
 
 <style lang="scss">
 // 1. Your custom variables and variable overwrites.
-$global-link-color: #da7d02;
+// $global-link-color: #da7d02;
 $base-body-font-weight: 300;
 $base-heading-font-weight: 300;
 // 2. Import default variables and available mixins.

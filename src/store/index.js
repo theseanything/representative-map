@@ -3,42 +3,37 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
+function districtColor(state, district) {
+  var parties = state.senators[district.senator].parties
+  for (var i = 0; i < parties.length; i++) {
+    if (state.parties['Democratic'].acronyms.includes(parties[i])) {
+      return state.parties['Democratic'].color
+    }
+
+    if (state.parties['Republican'].acronyms.includes(parties[i])) {
+      return state.parties['Republican'].color
+    }
+  }
+
+  return '#000990'
+}
+
 export default new Vuex.Store({
   state: {
     parties: {},
     senators: null,
-    districts: [],
+    districts: {},
     candidates: {}
   },
   getters: {
     selectedDistrict: state => {
       return state.districts[state.route.params.districtNumber] || null
     },
-    polygonOptions: (state, getters) => number => {
-      var selected = state.route.params.districtNumber === number
-      var color = getters.districtColor(number)
-      return {
-        geodesic: true,
-        strokeColor: color,
-        fillColor: color,
-        strokeWeight: selected ? 3 : 1,
-        fillOpacity: selected ? 0.3 : 0.1,
-        strokeOpacity: 0.2
-      }
+    districtNumber: state => {
+      return state.route.params.districtNumber
     },
-    districtColor: state => number => {
-      var parties = state.senators[state.districts[number].senator].parties
-      for (var i = 0; i < parties.length; i++) {
-        if (state.parties['Democratic'].acronyms.includes(parties[i])) {
-          return state.parties['Democratic'].color
-        }
-
-        if (state.parties['Republican'].acronyms.includes(parties[i])) {
-          return state.parties['Republican'].color
-        }
-      }
-
-      return '#000990'
+    maxDistricts: state => {
+      return Object.keys(state.districts).length
     },
     candidates: state => {
       return state.selectedDistrict
@@ -80,10 +75,34 @@ export default new Vuex.Store({
       state.senators = data
     },
     setDistricts(state, districts) {
+      for (var d in districts) {
+        var color = districtColor(state, districts[d])
+        districts[d].options = {
+          geodesic: true,
+          strokeColor: color,
+          fillColor: color,
+          strokeWeight: 1,
+          fillOpacity: 0.1,
+          strokeOpacity: 0.2
+        }
+      }
+      var districtNumber = state.route.params.districtNumber
+      if (districtNumber) {
+        districts[districtNumber].options.strokeWeight = 3
+        districts[districtNumber].options.fillOpacity = 0.3
+      }
       state.districts = districts
     },
     setCandidates(state, candidates) {
       state.candidates = candidates
+    },
+    highlightDistrict(state, districtNumber) {
+      state.districts[districtNumber].options.strokeWeight = 3
+      state.districts[districtNumber].options.fillOpacity = 0.3
+    },
+    unhighlightDistrict(state, districtNumber) {
+      state.districts[districtNumber].options.strokeWeight = 1
+      state.districts[districtNumber].options.fillOpacity = 0.1
     }
   },
   actions: {
@@ -107,10 +126,12 @@ export default new Vuex.Store({
         commit('setDistricts', data.default)
       })
     },
-    fetchData({ dispatch }) {
-      dispatch('loadParties')
-      dispatch('loadSenators')
-      dispatch('loadCandidates')
+    async fetchData({ dispatch }) {
+      await Promise.all([
+        dispatch('loadParties'),
+        dispatch('loadSenators'),
+        dispatch('loadCandidates')
+      ])
       dispatch('loadDistricts')
     }
   }

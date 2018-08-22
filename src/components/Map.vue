@@ -21,7 +21,7 @@
         :ref="'polygon' + d.number" 
         :key="d.number" 
         :paths="d.coordinates" 
-        :options="polygonOptions(d.number)" 
+        :options="d.options" 
         @click="changeDistrict(d.number)">
       </gmap-polygon>
     </gmap-map>
@@ -36,21 +36,21 @@ import { gmapApi } from 'vue2-google-maps'
 export default {
   name: 'Map',
   computed: {
-    ...mapState(['districts', 'route']),
-    ...mapGetters(['polygonOptions']),
+    ...mapState(['districts']),
+    ...mapGetters(['polygonOptions', 'districtNumber', 'districtColor']),
     google: gmapApi
-
   },
   data () {
     return {
       center: { lat: 42.7466321, lng: -75.770041 },
-      place: null
+      place: null,
+      options: {}
     }
   },
   methods: {
-    ...mapMutations(['selectDistrict']),
+    ...mapMutations(['selectDistrict', 'highlightDistrict', 'unhighlightDistrict']),
     changeDistrict (d) {
-      if (d == this.route.params.districtNumber) {
+      if (d == this.districtNumber) {
         this.$router.push({ name: 'home' })
       } else {
         this.$router.push({ name: 'district', params: { districtNumber: d } })
@@ -68,6 +68,16 @@ export default {
             return
           }
         }
+      }
+    }
+  },
+  watch: {
+    districtNumber: function (newDistrictNumber, oldDistrictNumber) {
+      if (oldDistrictNumber) {
+        this.unhighlightDistrict(oldDistrictNumber)
+      }
+      if (newDistrictNumber) {
+        this.highlightDistrict(newDistrictNumber)
       }
     }
   }

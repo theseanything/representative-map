@@ -4,7 +4,13 @@
             <div class="uk-container">
                 <h1 class="uk-h3">New York State Senate</h1>
                 <ul class="uk-subnav  uk-subnav-divider uk-margin-small-top" uk-margin>
-                    <router-link tag='li' to="/"><a>Districts</a></router-link>
+                    <router-link 
+                        v-bind:class="{'uk-active': $route.path.includes('/district') || $route.path == '/'}" 
+                        tag='li' 
+                        to="/"
+                    >
+                        <a>Districts</a>
+                    </router-link>
                     <li>
                         <span>Next Election: Sept 13th</span> 
                     </li>
@@ -18,7 +24,7 @@
                     <p class="uk-text-meta text-small uk-margin-remove">Made with ♥︎ by <a href="https://github.com/theseanything">theseanything.</a></p>
                 </div>
                 <div>
-                    <router-link class="uk-text-meta" to="/about">About <span uk-icon="icon: info; ratio: 0.8"></span></router-link>
+                    <router-link active-class="link-active" class="uk-text-meta link" to="/about">About <span uk-icon="icon: info; ratio: 0.8"></span></router-link>
                 </div>
             </div>
         </div>
@@ -38,5 +44,16 @@ export default {
 }
 .text-small {
   font-size: 0.7rem;
+}
+.link-active {
+  color: #333;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #333;
 }
 </style>

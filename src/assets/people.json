@@ -1,0 +1,2435 @@
+{
+    "Aaron W Gladd": {
+        "candidate": true,
+        "districts": [
+            "43"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Aaron W Gladd",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Aaron Gladd",
+        "twitter_screen_name": "AaronGladd",
+        "website": "www.AaronGladd.com"
+    },
+    "Alessandra Biaggi": {
+        "candidate": true,
+        "districts": [
+            "34"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Alessandra Biaggi",
+        "parties": [
+            "WOR",
+            "DEM"
+        ],
+        "searchable_name": "Alessandra Biaggi",
+        "twitter_screen_name": "Biaggi4NY",
+        "website": "biaggi4ny.com"
+    },
+    "Amanda Kirchgessner": {
+        "candidate": true,
+        "districts": [
+            "58"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Amanda Kirchgessner",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "Amanda Kirchgessner",
+        "twitter_screen_name": "acherrypicker",
+        "website": "www.amandaserving.us"
+    },
+    "Andrea Stewart-Cousins": {
+        "candidate": true,
+        "districts": [
+            "35"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Andrea Stewart-Cousins",
+        "parties": [
+            "IND",
+            "DEM",
+            "WEP",
+            "WOR",
+            "REF"
+        ],
+        "searchable_name": "Andrea Stewart-Cousins",
+        "twitter_screen_name": "AndreaSCousins",
+        "website": "www.stewartcousins.nysenate.gov"
+    },
+    "Andrew J Grover": {
+        "candidate": true,
+        "districts": [
+            "6"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Andrew J Grover",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "Andrew Grover",
+        "twitter_screen_name": "GroverforSenate",
+        "website": "www.groverforsenate.com"
+    },
+    "Andrew J. Lanza": {
+        "candidate": false,
+        "districts": [
+            "24"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Andrew J. Lanza",
+        "parties": [
+            "R"
+        ],
+        "searchable_name": "Andrew Lanza",
+        "twitter_screen_name": "SenKennedy",
+        "website": "www.senatorandrewlanza.com"
+    },
+    "Andrew S Gounardes": {
+        "candidate": true,
+        "districts": [
+            "22"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Andrew S Gounardes",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR",
+            "REF"
+        ],
+        "searchable_name": "Andrew Gounardes",
+        "twitter_screen_name": "agounardes",
+        "website": "www.andrewgounardes.com"
+    },
+    "Angharad Vaughan": {
+        "candidate": true,
+        "districts": [
+            "17"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Angharad Vaughan",
+        "parties": [
+            "WOR"
+        ],
+        "searchable_name": "Angharad Vaughan",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Ann G Rabbitt": {
+        "candidate": true,
+        "districts": [
+            "42"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Ann G Rabbitt",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Ann Rabbitt",
+        "twitter_screen_name": "",
+        "website": "annieforsenate.com"
+    },
+    "Anna M Kaplan": {
+        "candidate": true,
+        "districts": [
+            "7"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Anna M Kaplan",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Anna Kaplan",
+        "twitter_screen_name": "AnnaMKaplan",
+        "website": "www.AnnaforNYSenate.com"
+    },
+    "Anthony Arias": {
+        "candidate": true,
+        "districts": [
+            "26"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Anthony Arias",
+        "parties": [
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Anthony Arias",
+        "twitter_screen_name": "voteAriasNYC",
+        "website": ""
+    },
+    "Antonio Vitiello": {
+        "candidate": true,
+        "districts": [
+            "34"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Antonio Vitiello",
+        "parties": [
+            "CON"
+        ],
+        "searchable_name": "Antonio Vitiello",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Ashton T Randle": {
+        "candidate": true,
+        "districts": [
+            "27"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Ashton T Randle",
+        "parties": [
+            "REP"
+        ],
+        "searchable_name": "Ashton Randle",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Barbara N Taylor": {
+        "candidate": true,
+        "districts": [
+            "25",
+            "18"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Barbara N Taylor",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "Barbara Taylor",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Blake Morris": {
+        "candidate": true,
+        "districts": [
+            "17"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Blake Morris",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "Blake Morris",
+        "twitter_screen_name": "BlakeMorris4NYS",
+        "website": "www.blakemorrisforstatesenate.com/"
+    },
+    "Brad M Hoylman": {
+        "candidate": true,
+        "districts": [
+            "27"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Brad M Hoylman",
+        "parties": [
+            "WOR",
+            "DEM"
+        ],
+        "searchable_name": "Brad Hoylman",
+        "twitter_screen_name": "bradhoylman",
+        "website": "www.bradhoylman.com"
+    },
+    "Brandon P Stradford": {
+        "candidate": true,
+        "districts": [
+            "23"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Brandon P Stradford",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "Brandon Stradford",
+        "twitter_screen_name": "Stradford2018",
+        "website": "stradford4senate.com"
+    },
+    "Brian A Benjamin": {
+        "candidate": true,
+        "districts": [
+            "30"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Brian A Benjamin",
+        "parties": [
+            "WOR",
+            "DEM"
+        ],
+        "searchable_name": "Brian Benjamin",
+        "twitter_screen_name": "BrianABenjamin",
+        "website": "brianbenjamin.org"
+    },
+    "Brian Kavanagh": {
+        "candidate": true,
+        "districts": [
+            "26"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Brian Kavanagh",
+        "parties": [
+            "WOR",
+            "DEM"
+        ],
+        "searchable_name": "Brian Kavanagh",
+        "twitter_screen_name": "BrianKavanaghNY",
+        "website": "www.briankavanagh.org"
+    },
+    "Brian W Kelly": {
+        "candidate": true,
+        "districts": [
+            "21"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Brian W Kelly",
+        "parties": [
+            "CON",
+            "REP"
+        ],
+        "searchable_name": "Brian Kelly",
+        "twitter_screen_name": "BKBrianKelly",
+        "website": "www.bkcm.co"
+    },
+    "C Scott Vanderhoef": {
+        "candidate": true,
+        "districts": [
+            "38"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "C Scott Vanderhoef",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Scott Vanderhoef",
+        "twitter_screen_name": "vanderhoefscott",
+        "website": "www.skdllp.com"
+    },
+    "Carima C El Behairy": {
+        "candidate": true,
+        "districts": [
+            "60"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Carima C El Behairy",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Carima El-Behairy",
+        "twitter_screen_name": "carima4senate",
+        "website": "carima4senate.com"
+    },
+    "Carl L Marcellino": {
+        "candidate": true,
+        "districts": [
+            "5"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Carl L Marcellino",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Carl Marcellino",
+        "twitter_screen_name": "Senator98",
+        "website": "www.carlmarcellino2018.com"
+    },
+    "Catharine M Young": {
+        "candidate": true,
+        "districts": [
+            "57"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Catharine M Young",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Catharine Young",
+        "twitter_screen_name": "SenatorYoung",
+        "website": "www.senatorcathyyoung.com"
+    },
+    "Christopher F Davis": {
+        "candidate": true,
+        "districts": [
+            "44"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Christopher F Davis",
+        "parties": [
+            "CON",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Christopher Davis",
+        "twitter_screen_name": "DavisForNYS",
+        "website": "www.davisfornys.com"
+    },
+    "Christopher L Jacobs": {
+        "candidate": true,
+        "districts": [
+            "60"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Christopher L Jacobs",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Christopher Jacobs",
+        "twitter_screen_name": "JacobsforSenate",
+        "website": "www.senatorchrisjacobs.com"
+    },
+    "Daphne V Jordan": {
+        "candidate": true,
+        "districts": [
+            "43"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Daphne V Jordan",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Daphne Jordan",
+        "twitter_screen_name": "DVJ518",
+        "website": "daphnejordan.com"
+    },
+    "David Carlucci": {
+        "candidate": true,
+        "districts": [
+            "38"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "David Carlucci",
+        "parties": [
+            "WEP",
+            "DEM"
+        ],
+        "searchable_name": "David Carlucci",
+        "twitter_screen_name": "DavidCarlucci",
+        "website": "www.senatorcarlucci.com"
+    },
+    "David J Valesky": {
+        "candidate": true,
+        "districts": [
+            "53"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "David J Valesky",
+        "parties": [
+            "DEM",
+            "IND",
+            "WEP"
+        ],
+        "searchable_name": "David Valesky",
+        "twitter_screen_name": "SenDaveValesky",
+        "website": "www.davevalesky.com"
+    },
+    "David Krainert": {
+        "candidate": true,
+        "districts": [
+            "23"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "David Krainert",
+        "parties": [
+            "CON",
+            "REP"
+        ],
+        "searchable_name": "David Krainert",
+        "twitter_screen_name": "DavidKrainert",
+        "website": ""
+    },
+    "Dean Murray": {
+        "candidate": true,
+        "districts": [
+            "3"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Dean Murray",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Dean Murray",
+        "twitter_screen_name": "DeanMurray4NY",
+        "website": "votedeanmurray.com"
+    },
+    "Diane J Savino": {
+        "candidate": true,
+        "districts": [
+            "23"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Diane J Savino",
+        "parties": [
+            "IND",
+            "DEM",
+            "WEP",
+            "REF"
+        ],
+        "searchable_name": "Diane Savino",
+        "twitter_screen_name": "dianesavino",
+        "website": ""
+    },
+    "Elaine R Phillips": {
+        "candidate": true,
+        "districts": [
+            "7"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Elaine R Phillips",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Elaine Phillips",
+        "twitter_screen_name": "SenatorPhillips",
+        "website": "www.elainephillips.org"
+    },
+    "Elizabeth O'C Little": {
+        "candidate": true,
+        "districts": [
+            "45"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Elizabeth O'C Little",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Elizabeth Little",
+        "twitter_screen_name": "bettylittle",
+        "website": ""
+    },
+    "Emily L Martz": {
+        "candidate": true,
+        "districts": [
+            "45"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Emily L Martz",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "Emily Martz",
+        "twitter_screen_name": "Martz4Congress",
+        "website": "martzforcongress.com"
+    },
+    "Francis X Becker Jr": {
+        "candidate": true,
+        "districts": [
+            "9"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Francis X Becker Jr",
+        "parties": [
+            "CON",
+            "REP"
+        ],
+        "searchable_name": "Francis Becker",
+        "twitter_screen_name": "FrancisBecker",
+        "website": "beckerfornysenate.com"
+    },
+    "Frederick J Akshar, II": {
+        "candidate": true,
+        "districts": [
+            "52"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Frederick J Akshar, II",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Frederick Akshar",
+        "twitter_screen_name": "fredakshar",
+        "website": "www.nysenate.gov/senators/frederick-j-akshar-ii"
+    },
+    "George A Amedore, Jr": {
+        "candidate": true,
+        "districts": [
+            "46"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "George A Amedore, Jr",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "George Amedore",
+        "twitter_screen_name": "GeorgeAmedore",
+        "website": "georgeamedore.com"
+    },
+    "Gregory-John Fischer": {
+        "candidate": true,
+        "districts": [
+            "1"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Gregory-John Fischer",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "Gregory-John Fischer",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "J Gustavo Rivera": {
+        "candidate": true,
+        "districts": [
+            "33"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "J Gustavo Rivera",
+        "parties": [
+            "WOR",
+            "DEM"
+        ],
+        "searchable_name": "Gustavo Rivera",
+        "twitter_screen_name": "NYSenatorRivera",
+        "website": "www.nysenate.gov/senator/gustavo-rivera"
+    },
+    "Jamaal T Bailey": {
+        "candidate": true,
+        "districts": [
+            "36"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Jamaal T Bailey",
+        "parties": [
+            "WOR",
+            "DEM"
+        ],
+        "searchable_name": "Jamaal Bailey",
+        "twitter_screen_name": "jamaaltbailey",
+        "website": "www.nysenate.gov/senators/jamaal-bailey"
+    },
+    "James F Gaughran": {
+        "candidate": true,
+        "districts": [
+            "5"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "James F Gaughran",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "James Gaughran",
+        "twitter_screen_name": "Gaughran4Senate",
+        "website": "www.gaughran2018.com"
+    },
+    "James G Skoufis": {
+        "candidate": true,
+        "districts": [
+            "39"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "James G Skoufis",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR",
+            "REF"
+        ],
+        "searchable_name": "James Skoufis",
+        "twitter_screen_name": "JamesSkoufis",
+        "website": "www.skoufisforny.com"
+    },
+    "James L Seward": {
+        "candidate": true,
+        "districts": [
+            "51"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "James L Seward",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "James Seward",
+        "twitter_screen_name": "SenatorSeward",
+        "website": "jimseward.com"
+    },
+    "James N Tedisco": {
+        "candidate": true,
+        "districts": [
+            "49"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "James N Tedisco",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "James Tedisco",
+        "twitter_screen_name": "JamesTedisco",
+        "website": "jimtedisco.com"
+    },
+    "James Sanders Jr": {
+        "candidate": true,
+        "districts": [
+            "10"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "James Sanders Jr",
+        "parties": [
+            "DEM",
+            "WOR",
+            "REF"
+        ],
+        "searchable_name": "James Sanders",
+        "twitter_screen_name": "JSandersNYC",
+        "website": "www.sanders.nysenate.gov"
+    },
+    "James V Depasquale": {
+        "candidate": true,
+        "districts": [
+            "60"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "James V Depasquale",
+        "parties": [
+            "GRE"
+        ],
+        "searchable_name": "James Depasquale",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Janet Berl Burman": {
+        "candidate": true,
+        "districts": [
+            "53"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Janet Berl Burman",
+        "parties": [
+            "CON",
+            "REP"
+        ],
+        "searchable_name": "Janet Burman",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Jasmine L Robinson": {
+        "candidate": true,
+        "districts": [
+            "23"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Jasmine L Robinson",
+        "parties": [
+            "WOR",
+            "DEM"
+        ],
+        "searchable_name": "Jasmine Robinson",
+        "twitter_screen_name": "jasirobinson34",
+        "website": "votejasirobinson.com"
+    },
+    "Jeffrey D Klein": {
+        "candidate": true,
+        "districts": [
+            "34"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Jeffrey D Klein",
+        "parties": [
+            "IND",
+            "DEM"
+        ],
+        "searchable_name": "Jeffrey Klein",
+        "twitter_screen_name": "JeffKleinNY",
+        "website": "jeffkleinny.com"
+    },
+    "Jeffrey J Ferretti": {
+        "candidate": true,
+        "districts": [
+            "19"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Jeffrey J Ferretti",
+        "parties": [
+            "CON",
+            "REP"
+        ],
+        "searchable_name": "Jeffrey Ferretti",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Jeffrey P Pravato": {
+        "candidate": true,
+        "districts": [
+            "8"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Jeffrey P Pravato",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Jeffrey Pravato",
+        "twitter_screen_name": "JeffPravato",
+        "website": "jeffpravato.com"
+    },
+    "Jen Lunsford": {
+        "candidate": true,
+        "districts": [
+            "55"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Jen Lunsford",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "Jen Lunsford",
+        "twitter_screen_name": "VoteJenLunsford",
+        "website": "www.votejenlunsford.com"
+    },
+    "Jen Metzger": {
+        "candidate": true,
+        "districts": [
+            "42"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Jen Metzger",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Jen Metzger",
+        "twitter_screen_name": "JenMetzgerNY",
+        "website": "jenmetzger.com"
+    },
+    "Jeremy A Cooney": {
+        "candidate": true,
+        "districts": [
+            "56"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Jeremy A Cooney",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Jeremy Cooney",
+        "twitter_screen_name": "Cooney4NYSenate",
+        "website": "www.onward56.com"
+    },
+    "Jesse E Hamilton": {
+        "candidate": true,
+        "districts": [
+            "20"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Jesse E Hamilton",
+        "parties": [
+            "DEM",
+            "IND",
+            "WEP"
+        ],
+        "searchable_name": "Jesse Hamilton",
+        "twitter_screen_name": "SenatorHamilton",
+        "website": "JesseHamilton.com"
+    },
+    "Jessica Ramos": {
+        "candidate": true,
+        "districts": [
+            "13"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Jessica Ramos",
+        "parties": [
+            "WOR",
+            "DEM"
+        ],
+        "searchable_name": "Jessica Ramos",
+        "twitter_screen_name": "jessicaramos",
+        "website": "www.ramosforstatesenate.com"
+    },
+    "Joan Elizabeth Seamans": {
+        "candidate": true,
+        "districts": [
+            "61"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Joan Elizabeth Seamans",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Joan Seamans",
+        "twitter_screen_name": "JoanElizSeamans",
+        "website": "Seamans4Senate.com"
+    },
+    "John A. DeFrancisco": {
+        "candidate": false,
+        "districts": [
+            "50"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "John A. DeFrancisco",
+        "parties": [
+            "R",
+            "C",
+            "IP"
+        ],
+        "searchable_name": "John DeFrancisco",
+        "twitter_screen_name": "SenKennedy",
+        "website": "kennedy.nysenate.gov/"
+    },
+    "John E Brooks": {
+        "candidate": true,
+        "districts": [
+            "8"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "John E Brooks",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "John Brooks",
+        "twitter_screen_name": "Brooks4LINY",
+        "website": "www.brooks2018.com"
+    },
+    "John J Flanagan": {
+        "candidate": true,
+        "districts": [
+            "2"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "John J Flanagan",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "John Flanagan",
+        "twitter_screen_name": "LeaderFlanagan",
+        "website": "flanaganforsenate.com"
+    },
+    "John J. Bonacic": {
+        "candidate": false,
+        "districts": [
+            "42"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "John J. Bonacic",
+        "parties": [
+            "R",
+            "C",
+            "IP"
+        ],
+        "searchable_name": "John Bonacic",
+        "twitter_screen_name": "SenKennedy",
+        "website": "kennedy.nysenate.gov/"
+    },
+    "John Liu": {
+        "candidate": true,
+        "districts": [
+            "11"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "John Liu",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "John Liu",
+        "twitter_screen_name": "LiuNewYork",
+        "website": "johnliunewyork.com"
+    },
+    "John W Mannion": {
+        "candidate": true,
+        "districts": [
+            "50"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "John W Mannion",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR",
+            "REF"
+        ],
+        "searchable_name": "John Mannion",
+        "twitter_screen_name": "mannionfor50",
+        "website": "www.mannionforstatesenate.com"
+    },
+    "Jose Colon": {
+        "candidate": true,
+        "districts": [
+            "29"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Jose Colon",
+        "parties": [
+            "REP"
+        ],
+        "searchable_name": "Jose Colon",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Jose M Serrano": {
+        "candidate": true,
+        "districts": [
+            "29"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Jose M Serrano",
+        "parties": [
+            "WOR",
+            "DEM"
+        ],
+        "searchable_name": "Jose Serrano",
+        "twitter_screen_name": "SenatorSerrano",
+        "website": "serrano.nysenate.gov"
+    },
+    "Jose R Peralta": {
+        "candidate": true,
+        "districts": [
+            "13"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Jose R Peralta",
+        "parties": [
+            "IND",
+            "DEM",
+            "WEP",
+            "REF"
+        ],
+        "searchable_name": "Jose Peralta",
+        "twitter_screen_name": "SenatorPeralta",
+        "website": "peralta4queens.com"
+    },
+    "Joseph A Griffo": {
+        "candidate": true,
+        "districts": [
+            "47"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Joseph A Griffo",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Joseph Griffo",
+        "twitter_screen_name": "SenGriffo",
+        "website": "votegriffo.com"
+    },
+    "Joseph E Robach": {
+        "candidate": true,
+        "districts": [
+            "56"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Joseph E Robach",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Joseph Robach",
+        "twitter_screen_name": "SenatorRobach",
+        "website": "joerobach.com"
+    },
+    "Joseph P Addabbo Jr": {
+        "candidate": true,
+        "districts": [
+            "15"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Joseph P Addabbo Jr",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR",
+            "REF"
+        ],
+        "searchable_name": "Joseph Addabbo",
+        "twitter_screen_name": "SenJoeAddabbo",
+        "website": ""
+    },
+    "Joyce St George": {
+        "candidate": true,
+        "districts": [
+            "51"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Joyce St George",
+        "parties": [
+            "WEP",
+            "DEM"
+        ],
+        "searchable_name": "Joyce George",
+        "twitter_screen_name": "stgeorge4senate",
+        "website": "stgeorgeforsenate.com"
+    },
+    "Julia Salazar": {
+        "candidate": true,
+        "districts": [
+            "18"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Julia Salazar",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "Julia Salazar",
+        "twitter_screen_name": "SalazarSenate18",
+        "website": "salazarforsenate.com/"
+    },
+    "Julie M Goldberg": {
+        "candidate": true,
+        "districts": [
+            "38"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Julie M Goldberg",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "Julie Goldberg",
+        "twitter_screen_name": "Julie4NYSenate",
+        "website": ""
+    },
+    "Karen S Smythe": {
+        "candidate": true,
+        "districts": [
+            "41"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Karen S Smythe",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Karen Smythe",
+        "twitter_screen_name": "Karen4NYSenate",
+        "website": "www.karen4nysenate.com"
+    },
+    "Kathleen A. Marchione ": {
+        "candidate": false,
+        "districts": [
+            "43"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Kathleen A. Marchione ",
+        "parties": [
+            "R",
+            "C",
+            "IP"
+        ],
+        "searchable_name": "Kathleen Marchione",
+        "twitter_screen_name": "SenKennedy",
+        "website": "kennedy.nysenate.gov/"
+    },
+    "Kathleen Bradbury Cleary": {
+        "candidate": true,
+        "districts": [
+            "2"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Kathleen Bradbury Cleary",
+        "parties": [
+            "WEP",
+            "DEM"
+        ],
+        "searchable_name": "Kathleen Cleary",
+        "twitter_screen_name": "ClearyforSenate",
+        "website": "ClearyforSenate.com"
+    },
+    "Kemp Hannon": {
+        "candidate": true,
+        "districts": [
+            "6"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Kemp Hannon",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Kemp Hannon",
+        "twitter_screen_name": "ElectHannon",
+        "website": "www.electhannon.com"
+    },
+    "Kenan S Baldridge": {
+        "candidate": true,
+        "districts": [
+            "54"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Kenan S Baldridge",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Kenan Baldridge",
+        "twitter_screen_name": "kbaldridge54",
+        "website": "secure.actblue.com/entity/fundraisers/44511"
+    },
+    "Kenneth P La Valle": {
+        "candidate": true,
+        "districts": [
+            "1"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Kenneth P La Valle",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Kenneth LaValle",
+        "twitter_screen_name": "senatorlavalle",
+        "website": "www.nysenate.gov/senator/kenneth-p-lavalle"
+    },
+    "Kevin M Thomas": {
+        "candidate": true,
+        "districts": [
+            "6"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Kevin M Thomas",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Kevin Thomas",
+        "twitter_screen_name": "KevinThomasNY",
+        "website": "www.KevinThomas2018.com"
+    },
+    "Kevin S Parker": {
+        "candidate": true,
+        "districts": [
+            "21"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Kevin S Parker",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Kevin Parker",
+        "twitter_screen_name": "SenatorParker",
+        "website": "www.nysenate.gov/senator/kevin-s-parker"
+    },
+    "Lashawn Henry": {
+        "candidate": true,
+        "districts": [
+            "30"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Lashawn Henry",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "Lashawn Henry",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Leroy G Comrie Jr": {
+        "candidate": true,
+        "districts": [
+            "14"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Leroy G Comrie Jr",
+        "parties": [
+            "DEM",
+            "WOR",
+            "REF"
+        ],
+        "searchable_name": "Leroy Comrie",
+        "twitter_screen_name": "LeroyComrie",
+        "website": "comrie.nysenate.gov"
+    },
+    "Liz Krueger": {
+        "candidate": true,
+        "districts": [
+            "28"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Liz Krueger",
+        "parties": [
+            "WOR",
+            "DEM"
+        ],
+        "searchable_name": "Liz Krueger",
+        "twitter_screen_name": "LizKrueger",
+        "website": "www.lizkrueger.com"
+    },
+    "Louis D'Amaro": {
+        "candidate": true,
+        "districts": [
+            "4"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Louis D'Amaro",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Louis D'Amaro",
+        "twitter_screen_name": "DAmaro4NY",
+        "website": ""
+    },
+    "Luis Rivera": {
+        "candidate": true,
+        "districts": [
+            "17"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Luis Rivera",
+        "parties": [
+            "REF"
+        ],
+        "searchable_name": "Luis Rivera",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Luis Sepulveda": {
+        "candidate": true,
+        "districts": [
+            "32"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Luis Sepulveda",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Luis Sepulveda",
+        "twitter_screen_name": "LuisSepulvedaNY",
+        "website": "www.nysenate.gov/senators/luis-r-sepulveda"
+    },
+    "Marisol Alcantara": {
+        "candidate": true,
+        "districts": [
+            "31"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Marisol Alcantara",
+        "parties": [
+            "DEM",
+            "IND",
+            "WEP"
+        ],
+        "searchable_name": "Marisol Alcantara",
+        "twitter_screen_name": "NY31Alcantara",
+        "website": "www.marisolalcantarany.com"
+    },
+    "Mark Schneider": {
+        "candidate": true,
+        "districts": [
+            "45"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Mark Schneider",
+        "parties": [
+            "WOR"
+        ],
+        "searchable_name": "Mark Schneider",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Martin J Golden": {
+        "candidate": true,
+        "districts": [
+            "22"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Martin J Golden",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Martin Golden",
+        "twitter_screen_name": "SenMartyGolden",
+        "website": "www.martygolden.org"
+    },
+    "Martin M Dilan": {
+        "candidate": true,
+        "districts": [
+            "18"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Martin M Dilan",
+        "parties": [
+            "IND",
+            "DEM"
+        ],
+        "searchable_name": "Martin Dilan",
+        "twitter_screen_name": "SenatorDilan",
+        "website": "www.dilanforsenate.com"
+    },
+    "Melinda Crump": {
+        "candidate": true,
+        "districts": [
+            "31"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Melinda Crump",
+        "parties": [
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Melinda Crump",
+        "twitter_screen_name": "melinda4ny",
+        "website": ""
+    },
+    "Michael H Ranzenhofer": {
+        "candidate": true,
+        "districts": [
+            "61"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Michael H Ranzenhofer",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Michael Ranzenhofer",
+        "twitter_screen_name": "",
+        "website": "www.ranzenhoferforsenate.com"
+    },
+    "Michael Lausell": {
+        "candidate": true,
+        "districts": [
+            "58"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Michael Lausell",
+        "parties": [
+            "WOR",
+            "DEM"
+        ],
+        "searchable_name": "Michael Lausell",
+        "twitter_screen_name": "mikefornysenate",
+        "website": "mikefornysenate.com"
+    },
+    "Michael N Gianaris": {
+        "candidate": true,
+        "districts": [
+            "12"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Michael N Gianaris",
+        "parties": [
+            "WOR",
+            "DEM"
+        ],
+        "searchable_name": "Michael Gianaris",
+        "twitter_screen_name": "SenGianaris",
+        "website": "www.mikegianaris.com"
+    },
+    "Michelle Ostrelich": {
+        "candidate": true,
+        "districts": [
+            "49"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Michelle Ostrelich",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Michelle Ostrelich",
+        "twitter_screen_name": "michelle4nys",
+        "website": "michelleforstatesenate.com"
+    },
+    "Migdalia Denis": {
+        "candidate": true,
+        "districts": [
+            "32"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Migdalia Denis",
+        "parties": [
+            "CON"
+        ],
+        "searchable_name": "Migdalia Denis",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Monica R Martinez": {
+        "candidate": true,
+        "districts": [
+            "3"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Monica R Martinez",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Monica Martinez",
+        "twitter_screen_name": "MonicaForSenate",
+        "website": ""
+    },
+    "Neil D Breslin": {
+        "candidate": true,
+        "districts": [
+            "44"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Neil D Breslin",
+        "parties": [
+            "DEM",
+            "IND",
+            "WOR"
+        ],
+        "searchable_name": "Neil Breslin",
+        "twitter_screen_name": "NeilBreslin44",
+        "website": ""
+    },
+    "Nicole J Torres": {
+        "candidate": true,
+        "districts": [
+            "33"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Nicole J Torres",
+        "parties": [
+            "REP"
+        ],
+        "searchable_name": "Nicole Torres",
+        "twitter_screen_name": "NicoleTorres20",
+        "website": ""
+    },
+    "Pamela A Helming": {
+        "candidate": true,
+        "districts": [
+            "54"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Pamela A Helming",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Pamela Helming",
+        "twitter_screen_name": "SenatorHelming",
+        "website": "pamhelming.com"
+    },
+    "Pamela Stewart-Martinez": {
+        "candidate": true,
+        "districts": [
+            "32"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Pamela Stewart-Martinez",
+        "parties": [
+            "DEM",
+            "REF"
+        ],
+        "searchable_name": "Pamela Stewart-Martinez",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Pat Courtney Strong": {
+        "candidate": true,
+        "districts": [
+            "46"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Pat Courtney Strong",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Pat Strong",
+        "twitter_screen_name": "votepatstrong",
+        "website": "www.VotePatStrong.com"
+    },
+    "Patricia A Ritchie": {
+        "candidate": true,
+        "districts": [
+            "48"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Patricia A Ritchie",
+        "parties": [
+            "CON",
+            "IND",
+            "REP"
+        ],
+        "searchable_name": "Patricia Ritchie",
+        "twitter_screen_name": "SenatorRitchie",
+        "website": "www.nysenate.gov/senators/patty-ritchie"
+    },
+    "Patrick Delices": {
+        "candidate": true,
+        "districts": [
+            "32"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Patrick Delices",
+        "parties": [
+            "REP"
+        ],
+        "searchable_name": "Patrick Delices",
+        "twitter_screen_name": "",
+        "website": "www.voteforpatrickdelices.com"
+    },
+    "Patrick M Gallivan": {
+        "candidate": true,
+        "districts": [
+            "59"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Patrick M Gallivan",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Patrick Gallivan",
+        "twitter_screen_name": "senatorgallivan",
+        "website": "www.nysenate.gov/senators/patrick-m-gallivan"
+    },
+    "Peter A Diachun": {
+        "candidate": true,
+        "districts": [
+            "62"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Peter A Diachun",
+        "parties": [
+            "GRE"
+        ],
+        "searchable_name": "Peter Diachun",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Peter B Harckham": {
+        "candidate": true,
+        "districts": [
+            "40"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Peter B Harckham",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Peter Harckham",
+        "twitter_screen_name": "",
+        "website": "peteforny.com"
+    },
+    "Peter Holmberg": {
+        "candidate": true,
+        "districts": [
+            "28"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Peter Holmberg",
+        "parties": [
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Peter Holmberg",
+        "twitter_screen_name": "PeteHolmbergNYC",
+        "website": "www.HolmbergForNewYork.com"
+    },
+    "Philip M Boyle": {
+        "candidate": true,
+        "districts": [
+            "4"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Philip M Boyle",
+        "parties": [
+            "CON",
+            "IND",
+            "REP"
+        ],
+        "searchable_name": "Philip Boyle",
+        "twitter_screen_name": "PhilBoyleNY",
+        "website": "www.nysenate.gov/senators/phil-boyle"
+    },
+    "Pramilla Malick": {
+        "candidate": true,
+        "districts": [
+            "42"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Pramilla Malick",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "Pramilla Malick",
+        "twitter_screen_name": "PramillaSMalick",
+        "website": "pramilla.com"
+    },
+    "Rachel May": {
+        "candidate": true,
+        "districts": [
+            "53"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Rachel May",
+        "parties": [
+            "WOR",
+            "DEM"
+        ],
+        "searchable_name": "Rachel May",
+        "twitter_screen_name": "SRachelMay",
+        "website": "rachelmay.org"
+    },
+    "Rich Funke": {
+        "candidate": true,
+        "districts": [
+            "55"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Rich Funke",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Rich Funke",
+        "twitter_screen_name": "SenatorFunke",
+        "website": "funkeforsenate.com"
+    },
+    "Richard A Ribustello": {
+        "candidate": true,
+        "districts": [
+            "34"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Richard A Ribustello",
+        "parties": [
+            "REP"
+        ],
+        "searchable_name": "Richard Ribustello",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Robert E Antonacci II": {
+        "candidate": true,
+        "districts": [
+            "50"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Robert E Antonacci II",
+        "parties": [
+            "CON",
+            "IND",
+            "REP"
+        ],
+        "searchable_name": "Robert Antonacci",
+        "twitter_screen_name": "AntonacciCPA",
+        "website": "www.bobantonacci.com"
+    },
+    "Robert G Ortt": {
+        "candidate": true,
+        "districts": [
+            "62"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Robert G Ortt",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Robert Ortt",
+        "twitter_screen_name": "SenatorOrtt",
+        "website": "www.robortt.com"
+    },
+    "Robert Jackson": {
+        "candidate": true,
+        "districts": [
+            "31"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Robert Jackson",
+        "parties": [
+            "WOR",
+            "DEM"
+        ],
+        "searchable_name": "Robert Jackson",
+        "twitter_screen_name": "RJackson_NYC",
+        "website": ""
+    },
+    "Robert L Diamond": {
+        "candidate": true,
+        "districts": [
+            "36"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Robert L Diamond",
+        "parties": [
+            "CON"
+        ],
+        "searchable_name": "Robert Diamond",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Robert T Kesten": {
+        "candidate": true,
+        "districts": [
+            "40"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Robert T Kesten",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "Robert Kesten",
+        "twitter_screen_name": "rkesten",
+        "website": "www.electkesten.com"
+    },
+    "Ross Barkan": {
+        "candidate": true,
+        "districts": [
+            "22"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Ross Barkan",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "Ross Barkan",
+        "twitter_screen_name": "RossBarkan",
+        "website": "rossbarkan.com"
+    },
+    "Roxanne J Persaud": {
+        "candidate": true,
+        "districts": [
+            "19"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Roxanne J Persaud",
+        "parties": [
+            "DEM",
+            "IND",
+            "WOR"
+        ],
+        "searchable_name": "Roxanne Persaud",
+        "twitter_screen_name": "SenatorPersaud",
+        "website": "www.persaud.nysenate.gov"
+    },
+    "Shaqurah G Zachery": {
+        "candidate": true,
+        "districts": [
+            "63"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Shaqurah G Zachery",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "Shaqurah Zachery",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Shelley B Mayer": {
+        "candidate": true,
+        "districts": [
+            "37"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Shelley B Mayer",
+        "parties": [
+            "IND",
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Shelley Mayer",
+        "twitter_screen_name": "Shelley4Senate",
+        "website": ""
+    },
+    "Simcha Felder": {
+        "candidate": true,
+        "districts": [
+            "17"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Simcha Felder",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "DEM"
+        ],
+        "searchable_name": "Simcha Felder",
+        "twitter_screen_name": "NYSenatorFelder",
+        "website": "www.felder.nysenate.gov"
+    },
+    "Simon H Minching": {
+        "candidate": true,
+        "districts": [
+            "11"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Simon H Minching",
+        "parties": [
+            "CON",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Simon Minching",
+        "twitter_screen_name": "s_minching",
+        "website": ""
+    },
+    "Slawomir W Platta": {
+        "candidate": true,
+        "districts": [
+            "15"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Slawomir W Platta",
+        "parties": [
+            "REP"
+        ],
+        "searchable_name": "Slawomir Platta",
+        "twitter_screen_name": "PlattaForNY",
+        "website": "bit.ly/JOINgroupPlattaForNY"
+    },
+    "Steven M Stern": {
+        "candidate": true,
+        "districts": [
+            "33"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Steven M Stern",
+        "parties": [
+            "CON"
+        ],
+        "searchable_name": "Steven Stern",
+        "twitter_screen_name": "SteveSternNY",
+        "website": "stevesternforassembly.com"
+    },
+    "Stuart J Avrick": {
+        "candidate": true,
+        "districts": [
+            "26"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Stuart J Avrick",
+        "parties": [
+            "CON"
+        ],
+        "searchable_name": "Stuart Avrick",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Susan J Serino": {
+        "candidate": true,
+        "districts": [
+            "41"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Susan J Serino",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Susan Serino",
+        "twitter_screen_name": "Sueserino4ny",
+        "website": ""
+    },
+    "Terrence P Murphy": {
+        "candidate": true,
+        "districts": [
+            "40"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Terrence P Murphy",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Terrence Murphy",
+        "twitter_screen_name": "vote4murphy",
+        "website": "www.voteformurphy.com"
+    },
+    "Thomas A Gaglione": {
+        "candidate": true,
+        "districts": [
+            "63"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Thomas A Gaglione",
+        "parties": [
+            "REP"
+        ],
+        "searchable_name": "Thomas Gaglione",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Thomas A Leon": {
+        "candidate": true,
+        "districts": [
+            "31"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Thomas A Leon",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "Thomas Leon",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Thomas Basile": {
+        "candidate": true,
+        "districts": [
+            "39"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Thomas Basile",
+        "parties": [
+            "CON",
+            "IND",
+            "REP"
+        ],
+        "searchable_name": "Thomas Basile",
+        "twitter_screen_name": "Tom_Basile",
+        "website": "www.tom4ny.com"
+    },
+    "Thomas D. Croci": {
+        "candidate": false,
+        "districts": [
+            "3"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Thomas D. Croci",
+        "parties": [
+            "R"
+        ],
+        "searchable_name": "Thomas Croci",
+        "twitter_screen_name": "SenKennedy",
+        "website": "kennedy.nysenate.gov/"
+    },
+    "Thomas F O'Mara": {
+        "candidate": true,
+        "districts": [
+            "58"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Thomas F O'Mara",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Thomas O'Mara",
+        "twitter_screen_name": "SenatorOMara",
+        "website": "www.omaraforsenate.com"
+    },
+    "Thomas P Sullivan": {
+        "candidate": true,
+        "districts": [
+            "15"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Thomas P Sullivan",
+        "parties": [
+            "CON",
+            "IND",
+            "REP",
+            "REF"
+        ],
+        "searchable_name": "Thomas Sullivan",
+        "twitter_screen_name": "PSulliv",
+        "website": ""
+    },
+    "Timothy M Kennedy": {
+        "candidate": true,
+        "districts": [
+            "63"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Timothy M Kennedy",
+        "parties": [
+            "IND",
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Timothy Kennedy",
+        "twitter_screen_name": "SenKennedy",
+        "website": "www.timkennedyforsenate.com"
+    },
+    "Tirso S Pina": {
+        "candidate": true,
+        "districts": [
+            "31"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Tirso S Pina",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "Tirso Pina",
+        "twitter_screen_name": "pina_tirso",
+        "website": "www.tirsopinasenador.com/"
+    },
+    "Toby Ann Stavisky": {
+        "candidate": true,
+        "districts": [
+            "16"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Toby Ann Stavisky",
+        "parties": [
+            "DEM",
+            "WEP",
+            "WOR"
+        ],
+        "searchable_name": "Toby Stavisky",
+        "twitter_screen_name": "tobystavisky",
+        "website": "www.stavisky.com"
+    },
+    "Todd D Kaminsky": {
+        "candidate": true,
+        "districts": [
+            "9"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Todd D Kaminsky",
+        "parties": [
+            "IND",
+            "DEM",
+            "WEP",
+            "WOR",
+            "REF"
+        ],
+        "searchable_name": "Todd Kaminsky",
+        "twitter_screen_name": "toddkaminsky",
+        "website": "www.toddkaminsky.com"
+    },
+    "Tony Avella": {
+        "candidate": true,
+        "districts": [
+            "11"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Tony Avella",
+        "parties": [
+            "IND",
+            "DEM",
+            "WEP",
+            "REF"
+        ],
+        "searchable_name": "Tony Avella",
+        "twitter_screen_name": "TonyAvella",
+        "website": "bit.ly/2s4YXoS"
+    },
+    "Velmanette Montgomery": {
+        "candidate": true,
+        "districts": [
+            "25"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Velmanette Montgomery",
+        "parties": [
+            "WOR",
+            "DEM"
+        ],
+        "searchable_name": "Velmanette Montgomery",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Vickie Paladino": {
+        "candidate": true,
+        "districts": [
+            "11"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Vickie Paladino",
+        "parties": [
+            "REP"
+        ],
+        "searchable_name": "Vickie Paladino",
+        "twitter_screen_name": "Paladino4Senate",
+        "website": "www.vickiepaladino.com"
+    },
+    "Vincent J Pazienza": {
+        "candidate": true,
+        "districts": [
+            "16"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Vincent J Pazienza",
+        "parties": [
+            "REF"
+        ],
+        "searchable_name": "Vincent Pazienza",
+        "twitter_screen_name": "",
+        "website": ""
+    },
+    "Virginia M Perez": {
+        "candidate": true,
+        "districts": [
+            "35"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Virginia M Perez",
+        "parties": [
+            "DEM"
+        ],
+        "searchable_name": "Virginia Perez",
+        "twitter_screen_name": "legvperez",
+        "website": "www.westchesterlegislators.com"
+    },
+    "William J. Larkin, Jr.": {
+        "candidate": false,
+        "districts": [
+            "39"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "William J. Larkin, Jr.",
+        "parties": [
+            "R",
+            "C"
+        ],
+        "searchable_name": "William Larkin",
+        "twitter_screen_name": "SenKennedy",
+        "website": "kennedy.nysenate.gov/"
+    },
+    "Zellnor Y Myrie": {
+        "candidate": true,
+        "districts": [
+            "20"
+        ],
+        "facebook": "",
+        "image_url": "",
+        "name": "Zellnor Y Myrie",
+        "parties": [
+            "WOR",
+            "DEM"
+        ],
+        "searchable_name": "Zellnor Myrie",
+        "twitter_screen_name": "zellnor",
+        "website": "www.lawschool.cornell.edu/Success-Story.cfm?storyID=89D8A9A3-957B-07A2-5AFF666B3523CB1F"
+    }
+}
